@@ -83,9 +83,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/colorbar.ico
+alipay: /images/colorbar.jpg
 # 微信二维码图片地址
-weixin: /images/colorbar.ico
+weixin: /images/colorbar.jpg
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -130,7 +130,7 @@ music:
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1
   id: 22707008 # 网易云分享的音乐ID(更换音乐请更改此配置项)
-  autoPlay: true # 是否开启自动播放
+  autoPlay: false # 是否开启自动播放
 
 # 访问量统计(不蒜子)
 busuanzi:
@@ -166,7 +166,7 @@ mermaid:
 since: 2021
 
 # 是否显示页脚信息(建议保留)
-pageFooter: true
+pageFooter: false
 
 # ICP备案信息尾部显示
 icp:
