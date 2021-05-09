@@ -3,11 +3,11 @@
   <title>云之巅</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://yunzd.life/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://yunzd.life/"/>
   <updated>2021-05-08T13:09:36.529Z</updated>
-  <id>http://example.com/</id>
+  <id>https://yunzd.life/</id>
   
   <author>
     <name>Fred Yu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>md_test</title>
-    <link href="http://example.com/2021/05/08/md-test/"/>
-    <id>http://example.com/2021/05/08/md-test/</id>
+    <link href="https://yunzd.life/2021/05/08/md-test/"/>
+    <id>https://yunzd.life/2021/05/08/md-test/</id>
     <published>2021-05-08T13:04:13.000Z</published>
     <updated>2021-05-08T13:09:36.529Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="ttt" scheme="http://example.com/categories/ttt/"/>
+    <category term="ttt" scheme="https://yunzd.life/categories/ttt/"/>
     
     
-    <category term="test" scheme="http://example.com/tags/test/"/>
+    <category term="test" scheme="https://yunzd.life/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>test</title>
-    <link href="http://example.com/2021/05/08/test/"/>
-    <id>http://example.com/2021/05/08/test/</id>
+    <link href="https://yunzd.life/2021/05/08/test/"/>
+    <id>https://yunzd.life/2021/05/08/test/</id>
     <published>2021-05-08T11:01:16.000Z</published>
     <updated>2021-05-08T13:19:25.054Z</updated>
     
@@ -59,17 +59,17 @@
     
     
     
-    <category term="ttt" scheme="http://example.com/categories/ttt/"/>
+    <category term="ttt" scheme="https://yunzd.life/categories/ttt/"/>
     
     
-    <category term="test" scheme="http://example.com/tags/test/"/>
+    <category term="test" scheme="https://yunzd.life/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/05/08/hello-world/"/>
-    <id>http://example.com/2021/05/08/hello-world/</id>
+    <link href="https://yunzd.life/2021/05/08/hello-world/"/>
+    <id>https://yunzd.life/2021/05/08/hello-world/</id>
     <published>2021-05-08T08:04:16.973Z</published>
     <updated>2021-05-08T08:04:16.974Z</updated>
     
