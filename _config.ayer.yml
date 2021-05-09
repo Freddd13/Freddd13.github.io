@@ -54,7 +54,7 @@ share_enable: true
 # 国内的社交平台(If you are not in China, maybe you prefer to set:false)
 share_china: true
 # 文章分享文字
-share_text: 分享
+share_text: 分享云之巅的文章：
 
 # 分页文字
 nav_text:
@@ -205,23 +205,23 @@ friends_link:
 # 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 leancloud:
-  enable: true
+  enable: false
   app_id: #
   app_key: #
 # Valine配置
 valine:
-  enable: true # 是否启用
+  enable: false # 是否启用
   avatar: monsterid # 头像样式(https://valine.js.org/avatar.html)
   placeholder: 给我的文章加点评论吧~ # placeholder
 
 # 2、Gitalk(https://github.com/gitalk/gitalk)
 gitalk:
-  enable: false # true
-  clientID: # GitHub Application Client ID
-  clientSecret: # Client Secret
-  repo: # Repository name
-  owner: # GitHub ID
-  admin: # GitHub ID
+  enable: true # true
+  clientID: d888b1d30c506f4ca6ed # GitHub Application Client ID
+  clientSecret: c2dfd766f192b93f7d0b6cc7d8ffe4511356eef6 # Client Secret
+  repo: hexo_comments # Repository name
+  owner: Freddd13 # GitHub ID
+  admin: Freddd13 # GitHub ID
 
 # 3、Twikoo(https://github.com/imaegoo/twikoo)
 twikoo:
