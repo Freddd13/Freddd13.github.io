@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云之巅</title>
+  
+  
+  <link href="https://yunzd.life/atom.xml" rel="self"/>
+  
+  <link href="https://yunzd.life/"/>
+  <updated>2021-05-09T12:16:58.421Z</updated>
+  <id>https://yunzd.life/</id>
+  
+  <author>
+    <name>Fred Yu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>full_test</title>
+    <link href="https://yunzd.life/2021/05/09/full-test/"/>
+    <id>https://yunzd.life/2021/05/09/full-test/</id>
+    <published>2021-05-09T11:24:08.000Z</published>
+    <updated>2021-05-09T12:16:58.421Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://fred-pic1.oss-cn-beijing.aliyuncs.com/picgo_imgSnipaste_2020-07-05_17-00-41.png&quot; alt=&quot;Snipaste_2020-07-05_17-00-41&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
