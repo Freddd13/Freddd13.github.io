@@ -14,7 +14,7 @@ script.
         repo: '!{theme.gitalk.repo}',
         owner: '!{theme.gitalk.owner}',
         admin: ['!{theme.gitalk.admin}'],
-        id: '!{md5(page.path)}',
+        id: '!{page.path}',
         language: '!{theme.gitalk.language}',
         perPage: !{theme.gitalk.perPage},
         distractionFreeMode: !{theme.gitalk.distractionFreeMode},
