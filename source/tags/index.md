@@ -1,5 +1,5 @@
 ---
-title: "tags"
-type: "tags"
-layout: "tags"
+title: tags
+date: 2021-05-30 19:34:07
+type: "tags" 
 ---

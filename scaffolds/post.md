@@ -2,13 +2,19 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-categories: 
-password: 
-abstract: 有东西被加密了, 请输入密码查看.
-message: 您好, 这里需要密码.
-wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
-wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+categories:
+mathjax: true
+cover: 
+sticky: 
 ---
+
+<!--more-->
+
+
+
+
+
+
 
 // audio-play
 {% aplayer "Caffeine" "Jeff Williams" "caffeine.mp3" "picture.jpg" "lrc:caffeine.txt" %}
@@ -24,9 +30,61 @@ wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看�
 {% dplayer "" "autoplay=true" %}
 
 
-<!--more-->
 
 
+## tabs
+
+{% tabs test1 %} 
+<!-- tab --> 
+**This is Tab 1.**
+ <!-- endtab -->
+
+<!-- tab --> 
+**This is Tab 2.**
+ <!-- endtab -->
+
+<!-- tab --> 
+**This is Tab 3.**
+ <!-- endtab --> 
+{% endtabs %}
+
+---
+
+## button
+
+{% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %}
+
+[url] :链接
+[text] :按钮文字
+[icon] : [可选]图标
+[color] : [可选]按钮背景颜色(默认style时）
+                      按钮字体和边框颜色(outline时) 
+                      default/blue/pink /red/purple/orange/green 
+[style] : [可选]按钮样式默认实心
+                      outline/留空
+[layout] : [可选]按钮布局默认为line 
+                      block/留空
+[position] : [可选]按钮位置前提是设置了layout为block默认为左边
+                      center/right/留空
+[size] : [可选]按钮大小
+                      larger/留空
+
+---
+
+## inline图片 
+
+{% inlineImg [src] [height] %}
+
+[src] :图片链接
+[height] ：图片高度限制【可选】
+
+---
+
+## 文字高亮
+
+{% label text color %}
+
+---
 
 
 
