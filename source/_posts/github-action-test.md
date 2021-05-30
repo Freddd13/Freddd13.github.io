@@ -9,7 +9,11 @@ categories: 转载
 
 [Github Actions](https://github.com/features/actions) 是 GitHub 官方 CI 工具，与 GitHub 无缝集成。之前博客使用 TravisCI 实现的自动部署，现在转用 GitHub Actions 部署，本文记录部署流程。
 
-{% asset_img https://raw.githubusercontent.com/lujiahao0708/PicRepo/master/blogPic/Hexo/GithHub Actions.png %}
+![Modify0521](https://fred-pic1.oss-cn-beijing.aliyuncs.com/picgo_imgModify0521.jpg)
+
+
+
+
 
 ---
 
