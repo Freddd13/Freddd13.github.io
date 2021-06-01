@@ -135,3 +135,16 @@ aplayer:
   meting: true       # MetingJS 支持
   meting_cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js # 引用 Meting.js 外部 CDN 地址 (默认不开启)
 
+bangumi:
+  enable: true
+  path: anime/follow.html
+  vmid: 338452184
+  title: '追番列表'
+  quote: '云之巅的追番'
+  show: 1
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+

@@ -45,8 +45,11 @@ jobs:
           npm install hexo-tag-aplayer --save
           npm install hexo-tag-dplayer --save
           npm install hexo-wordcount --save
+          npm install hexo-bilibili-bangumi --save
+          npm install hexo-tag-bangumi --save
       - name: Hexo deploy
         run: |
           hexo clean
+          hexo bangumi -u
           hexo d
 
