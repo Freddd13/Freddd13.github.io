@@ -51,6 +51,5 @@ jobs:
       - name: Hexo deploy
         run: |
           hexo clean
-#          hexo bangumi -u
           hexo d
 
