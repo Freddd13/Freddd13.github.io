@@ -93,7 +93,7 @@ def deal(watchtype, content):
 
             cover = test_row[COVER]
             id = test_row[ID].split('/')[-1]
-            total_count = test_row[OTHERS].split('话')[0] + '话' if len(test_row[OTHERS].split('话')[0]) > 1 else '?'
+            total_count = test_row[OTHERS].split('话')[0] + '话' if len(test_row[OTHERS].split('话')) > 1 else '?'
             url = "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Subject@master/data/" + str(int(id)//100) + "/" + str(id) + ".json"
 
             # request cdn
