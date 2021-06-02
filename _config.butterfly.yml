@@ -96,7 +96,7 @@ disable_top_img: false
 index_img: https://fred-pic1.oss-cn-beijing.aliyuncs.com/picgo_imgdaugh.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://fred-pic1.oss-cn-beijing.aliyuncs.com/picgo_imgdaugh.png
 
 # The banner image of archive page
 archive_img:

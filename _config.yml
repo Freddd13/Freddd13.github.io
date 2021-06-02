@@ -140,7 +140,7 @@ bangumi:
   path: anime/follow.html
   vmid: 338452184
   title: '追番列表'
-  quote: '云之巅的追番'
+  quote: '数据来自 Bilibili 与 Bangumi'
   show: 1
   loading:
   metaColor:
