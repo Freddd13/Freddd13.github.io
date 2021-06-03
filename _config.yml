@@ -145,6 +145,6 @@ bangumi:
   loading:
   metaColor:
   color:
-  webp:
+  webp: false
   progress:
 
