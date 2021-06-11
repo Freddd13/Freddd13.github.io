@@ -151,7 +151,8 @@ def deal(watchtype, content):
                 ej['score'] = '?'
                 ej['des'] = '?'
             
-            tmp[key].append(ej)
+#            tmp[key].append(ej)
+            tmp[key] = ej
     return tmp
 
 
