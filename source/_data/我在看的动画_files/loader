@@ -1,0 +1,76 @@
+html[data-theme='dark'] #playbox, html[data-theme='dark'] #editbox {
+    color: #eee;
+}
+
+html[data-theme='dark'] #playbox span, html[data-theme='dark'] #editbox input, html[data-theme='dark'] #editbox select {
+    color: #ddd;
+    background-color: #333;
+}
+
+#playbox .episode_tag a {
+            color: #FFF;
+        }
+
+.episode_tag {
+        padding: 3px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+
+        .episode_tag a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+    .edit_button{
+        display:none;
+    }
+
+    .avfun {
+        background-color: #fd4c5b;
+    }
+
+    .bilibili {
+        background-color: #24ace6;
+    }
+
+    .hulu {
+        background-color: #2bbd99;
+    }
+
+    .iqiyi {
+        background-color: #00be06;
+    }
+
+    .letv {
+        background-color: #e42112;
+    }
+
+    .netflix {
+        background-color: #e50914;
+    }
+
+    .niconico {
+        background-color: #060102;
+    }
+
+    .pptv {
+        background-color: #00a0e9;
+    }
+
+    .sohu {
+        background-color: #d6000a;
+    }
+
+    .tencent {
+        background-color: #ff820f;
+    }
+
+    .youku {
+        background-color: #1ebeff;
+    }
+
+    .youtube {
+        background-color: #ff0000;
+    }
