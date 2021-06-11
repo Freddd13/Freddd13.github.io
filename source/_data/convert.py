@@ -81,6 +81,7 @@ def constructExist(watchtype, content):
 def deal(watchtype, content):
     # deal
     for key in watchtype.keys():
+        content[key] = []
         with codecs.open(watchtype[key]["csv_name"], 'rb', 'utf-8', errors='ignore') as csvfile:
             reader = csv.reader(csvfile, dialect='excel')
             # 用csv.writer()函数创建一个writer对象。
@@ -151,8 +152,8 @@ def deal(watchtype, content):
                 ej['score'] = '?'
                 ej['des'] = '?'
             
-#            tmp[key].append(ej)
-            tmp[key] = [ej]
+            content[key].append(ej)
+#            content[key] = [ej]
     return tmp
 
 
