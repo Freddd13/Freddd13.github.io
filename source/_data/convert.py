@@ -93,7 +93,9 @@ def deal(watchtype, content):
             
             if title in watchtype[key]["exist_list"]:
                 print(title + 'existed')
-                continue
+#               直接用了bangumi,就不去重了
+#                continue
+
 
             cover = test_row[COVER]
             id = test_row[ID].split('/')[-1]
@@ -113,12 +115,14 @@ def deal(watchtype, content):
                 follow = 0
                 for ckey in collection:
                     follow += collection[ckey]
-                follow = 'Ban ' + str(follow)
+#                follow = 'Ban ' + str(follow)
+                follow = str(follow)
 
                 danmaku = "Bangumi"
                 view = "Bangumi"
                 coin = "Bangumi"
-                score = 'Ban ' + str(r['rating']['score']) if 'rating' in r else '?'
+#                score = 'Ban ' + str(r['rating']['score']) if 'rating' in r else '?'
+                score = str(r['rating']['score']) if 'rating' in r else '?'
                 des = r['summary'].replace('\r\n', '').replace('　　','') if 'summary' in r else '?'
                 if len(des) > 145:
                     des = des[:145] + '......'
