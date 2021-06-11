@@ -152,7 +152,7 @@ def deal(watchtype, content):
                 ej['des'] = '?'
             
 #            tmp[key].append(ej)
-            tmp[key] = ej
+            tmp[key] = [ej]
     return tmp
 
 
