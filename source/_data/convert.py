@@ -42,6 +42,8 @@ def removeOldFile(wantWatch_csv, watching_csv, watched_csv):
     watching_ls.remove(watching_csv)
     watched_ls.remove(watched_csv)
     for tmp_list in [wantWatch_ls, watching_ls, watched_ls]:
+        if not len(tmp_list):
+            continue
         for file in tmp_list:
             os.remove(file)
             print('delete ', file)
