@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>anime_md_test</title>
+    <url>/2021/06/01/anime-md-test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
+
+
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#49</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
+伞木希美，高中3年级，长笛演奏者。
+
+初中时，是希美牵起了霙的手，带领她走出了孤独。
+自那以后，希美就占据了霙的整个世界。
+只有与希美在一起的生活，才令霙感到幸福。
+可在高中一年级，希美一度退出了吹奏部。而她的归来，也始终未能抹去霙心中的不安。
+——是否有一天，希美会再次消失在自己面前呢？
+
+就这样，二人迎来了高中最后的竞演会。
+参赛的自由曲是「莉兹与青鸟」。
+在这首以童话为蓝本创作的乐曲当中，有一段双簧管与长笛交相呼应的章节。
+
+「故事的结局，还是越美满越好啦。」
+虽然希美如此认为，霙却依然对终将到来的离别心怀恐惧。
+
+——请永远，永远，留在我身边吧——
+
+在继续着日常生活的同时，两人总是情不自禁地将自己投影到童话当中。
+霙是莉兹，希美是青鸟。
+但是……
+两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
+
+
+
+
+<p>// audio-play</p>
+
+			<script>
+				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (picture.jpg)");
+			</script>
+
+        <div id="aplayer-nHaWDioV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-nHaWDioV"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "undefined",
+              author: "undefined",
+              url: "undefined",
+              pic: "",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<p>// audio-page-lyric-play</p>
+<div id="aplayer-sjfqdISo" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+				<pre class="aplayer-lrc-content">[00:00.00]lrc here</pre>
+			</div>
+			<script>
+				var ap = new APlayer({
+					element: document.getElementById("aplayer-sjfqdISo"),
+					narrow: false,
+					autoplay: true,
+					showlrc: 2,
+					music: {
+						title: "title",
+						author: "author",
+						url: "url",
+						pic: "",
+					}
+				});
+				window.aplayers || (window.aplayers = []);
+				window.aplayers.push(ap);
+			</script>
+
+
+<p>// video-play</p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><p>no url specified, no dplayer _(:3」∠)_</p>
+
+
+
+
+<h2 id="tabs"><a href="#tabs" class="headerlink" title="tabs"></a>tabs</h2><div class="tabs" id="test1"><ul class="nav-tabs"></ul><div class="tab-contents"></div></div>
+
+<hr>
+<h2 id="button"><a href="#button" class="headerlink" title="button"></a>button</h2><a class="btn-beautify button--animated [color] [style] [layout] [position] [size]" href="/%5Burl%5D" 
+  title="[text]"><i class="[icon]"></i><span>[text]</span></a>
+
+<p>[url] :链接<br>[text] :按钮文字<br>[icon] : [可选]图标<br>[color] : [可选]按钮背景颜色(默认style时）<br>                      按钮字体和边框颜色(outline时)<br>                      default/blue/pink /red/purple/orange/green<br>[style] : [可选]按钮样式默认实心<br>                      outline/留空<br>[layout] : [可选]按钮布局默认为line<br>                      block/留空<br>[position] : [可选]按钮位置前提是设置了layout为block默认为左边<br>                      center/right/留空<br>[size] : [可选]按钮大小<br>                      larger/留空</p>
+<hr>
+<h2 id="inline图片"><a href="#inline图片" class="headerlink" title="inline图片"></a>inline图片</h2><img class="inline-img" src="/%5Bsrc%5D" style="height:[height]"/>
+
+<p>[src] :图片链接<br>[height] ：图片高度限制【可选】</p>
+<hr>
+<h2 id="文字高亮"><a href="#文字高亮" class="headerlink" title="文字高亮"></a>文字高亮</h2><mark class="hl-label color">text</mark> 
+
+<hr>
+<p>// audio-list</p>
+
+			<script>
+				console.error("SyntaxError: Unexpected token / in JSON at position 48");
+			</script>
+
+
+<p>// dplayer-detail<br>{<br>    container: “you needn’t set this”,<br>    autoplay: ‘autoplay’,<br>    theme: ‘theme’,<br>    loop: ‘loop’,<br>    lang: ‘lang’,<br>    screenshot: ‘screenshot’,<br>    hotkey: ‘hotkey’,<br>    preload: ‘preload’,<br>    logo: ‘logo’,<br>    volume: ‘volume’,<br>    mutex: ‘mutex’,<br>    video: {<br>        url: ‘url’,<br>        pic: ‘pic’,<br>        thumbnails: ‘thumbnails’,<br>        type: ‘vidtype’,<br>    },<br>    subtitle: {<br>        url: ‘suburl’,<br>        type: ‘subtype’,<br>        fontSize: ‘subsize’,<br>        bottom: ‘subbottom’,<br>        color: ‘subcolor’,<br>    },<br>    danmaku: {<br>        id: ‘id’,<br>        api: ‘api’,<br>        token: ‘token’,<br>        maximum: ‘maximum’,<br>        addition: [‘addition’],<br>        user: ‘dmuser’,<br>        unlimited: ‘dmunlimited’,<br>    },<br>    icons: ‘icons’,<br>    contextmenu: ‘menu’,<br>}</p>
+]]></content>
+  </entry>
+</search>
