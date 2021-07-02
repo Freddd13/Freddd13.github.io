@@ -6,7 +6,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
 
 
-<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#49</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#46</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
 伞木希美，高中3年级，长笛演奏者。
 
 初中时，是希美牵起了霙的手，带领她走出了孤独。
@@ -31,85 +31,68 @@
 
 
 
-
 <p>// audio-play</p>
 
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (picture.jpg)");
-			</script>
-
-        <div id="aplayer-nHaWDioV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
+        <div id="aplayer-BOIFYbdk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
+[00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
+[00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
+[00:42.87]海神様の恵みで  / 在海神大人的恩惠下
+[00:51.52]今日も辉く ほーいほーい  / 今日依旧熠熠生辉 吼以吼以
+[01:18.35]海の夜には ほーいほーい  / 海的夜晚 吼以吼以
+[01:23.76]こんぶもわかめも ゆーらゆら  / 昆布海莱飘摇摇
+[01:30.00]へびやうみうし  / 虾为证
+[01:35.42]岩阴にのぞき  / 岩为命
+[01:44.76]海神様の御霊日で  / 在海神大人的守护下
+[01:50.21]安らぎ眠るよ ほーいほーい  / 平静安然地入梦乡
+[02:22.62]海の中には ほーいほーい  / 大海之中 吼以吼以
+[02:28.16]いわしの群れが ゆーらゆらー  / 沙丁鱼成群飘摇摇
+[02:34.44]タコがおどれば マンボウも  / 章鱼起舞的话曼波鱼也会跟着跳舞
+[02:49.15]海神様よ御覧あれ  / 海神大人请您看看
+[02:54.65]皆が笑うよ ほーいほーい  / 大家都在笑  吼以吼以
+[03:26.95]うみのうしには ほーいほーい  / 大海的不可思议啊  吼以吼以
+[03:32.58]青い御霊日 ゆーらゆら  / 蓝色的御灵火也摇来摇去
+[03:38.81]おしきに光る わしらのエナ  / 绽放着五彩的咱们的胞衣啊
+[03:56.40]海神様のしおししお  / 海神大人处的汐鹿生
+[04:02.15]永久（とわ）に栄えよ ほーいほーい  / 永远繁荣  吼以吼以
+</pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-nHaWDioV"),
+            element: document.getElementById("aplayer-BOIFYbdk"),
             narrow: false,
             autoplay: false,
-            showlrc: false,
+            showlrc: 2,
             music: {
-              title: "undefined",
-              author: "undefined",
-              url: "undefined",
-              pic: "",
-              lrc: ""
+              title: "出羽良彰",
+              author: "出羽良彰",
+              url: "test.mp3",
+              pic: "/2021/06/01/anime-md-test/maxresdefault.jpg",
+              lrc: "lyric.lrc"
             }
           });
           window.aplayers || (window.aplayers = []);
           window.aplayers.push(ap);
         </script>
 
-<p>// audio-page-lyric-play</p>
-<div id="aplayer-sjfqdISo" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-				<pre class="aplayer-lrc-content">[00:00.00]lrc here</pre>
-			</div>
-			<script>
-				var ap = new APlayer({
-					element: document.getElementById("aplayer-sjfqdISo"),
-					narrow: false,
-					autoplay: true,
-					showlrc: 2,
-					music: {
-						title: "title",
-						author: "author",
-						url: "url",
-						pic: "",
-					}
-				});
-				window.aplayers || (window.aplayers = []);
-				window.aplayers.push(ap);
-			</script>
-
-
 <p>// video-play</p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><p>no url specified, no dplayer _(:3」∠)_</p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"video":{"url":"/2021/06/01/anime-md-test/testmp4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 
 
-
-
-<h2 id="tabs"><a href="#tabs" class="headerlink" title="tabs"></a>tabs</h2><div class="tabs" id="test1"><ul class="nav-tabs"></ul><div class="tab-contents"></div></div>
-
-<hr>
-<h2 id="button"><a href="#button" class="headerlink" title="button"></a>button</h2><a class="btn-beautify button--animated [color] [style] [layout] [position] [size]" href="/%5Burl%5D" 
-  title="[text]"><i class="[icon]"></i><span>[text]</span></a>
-
-<p>[url] :链接<br>[text] :按钮文字<br>[icon] : [可选]图标<br>[color] : [可选]按钮背景颜色(默认style时）<br>                      按钮字体和边框颜色(outline时)<br>                      default/blue/pink /red/purple/orange/green<br>[style] : [可选]按钮样式默认实心<br>                      outline/留空<br>[layout] : [可选]按钮布局默认为line<br>                      block/留空<br>[position] : [可选]按钮位置前提是设置了layout为block默认为左边<br>                      center/right/留空<br>[size] : [可选]按钮大小<br>                      larger/留空</p>
-<hr>
-<h2 id="inline图片"><a href="#inline图片" class="headerlink" title="inline图片"></a>inline图片</h2><img class="inline-img" src="/%5Bsrc%5D" style="height:[height]"/>
-
-<p>[src] :图片链接<br>[height] ：图片高度限制【可选】</p>
-<hr>
-<h2 id="文字高亮"><a href="#文字高亮" class="headerlink" title="文字高亮"></a>文字高亮</h2><mark class="hl-label color">text</mark> 
-
-<hr>
-<p>// audio-list</p>
-
-			<script>
-				console.error("SyntaxError: Unexpected token / in JSON at position 48");
-			</script>
-
-
-<p>// dplayer-detail<br>{<br>    container: “you needn’t set this”,<br>    autoplay: ‘autoplay’,<br>    theme: ‘theme’,<br>    loop: ‘loop’,<br>    lang: ‘lang’,<br>    screenshot: ‘screenshot’,<br>    hotkey: ‘hotkey’,<br>    preload: ‘preload’,<br>    logo: ‘logo’,<br>    volume: ‘volume’,<br>    mutex: ‘mutex’,<br>    video: {<br>        url: ‘url’,<br>        pic: ‘pic’,<br>        thumbnails: ‘thumbnails’,<br>        type: ‘vidtype’,<br>    },<br>    subtitle: {<br>        url: ‘suburl’,<br>        type: ‘subtype’,<br>        fontSize: ‘subsize’,<br>        bottom: ‘subbottom’,<br>        color: ‘subcolor’,<br>    },<br>    danmaku: {<br>        id: ‘id’,<br>        api: ‘api’,<br>        token: ‘token’,<br>        maximum: ‘maximum’,<br>        addition: [‘addition’],<br>        user: ‘dmuser’,<br>        unlimited: ‘dmunlimited’,<br>    },<br>    icons: ‘icons’,<br>    contextmenu: ‘menu’,<br>}</p>
 ]]></content>
+      <categories>
+        <category>music</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>test-mag</title>
+    <url>/2021/07/02/test-mag/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
+
+
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2>]]></content>
+      <categories>
+        <category>水刊</category>
+      </categories>
   </entry>
 </search>

@@ -6,22 +6,22 @@
   <link href="https://yunzd.life/atom.xml" rel="self"/>
   
   <link href="https://yunzd.life/"/>
-  <updated>2021-06-01T12:52:16.823Z</updated>
+  <updated>2021-07-02T04:08:34.754Z</updated>
   <id>https://yunzd.life/</id>
   
   <author>
-    <name>Fred Yu</name>
+    <name>云之巅</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>anime_md_test</title>
-    <link href="https://yunzd.life/2021/06/01/anime-md-test/"/>
-    <id>https://yunzd.life/2021/06/01/anime-md-test/</id>
-    <published>2021-06-01T12:51:05.000Z</published>
-    <updated>2021-06-01T12:52:16.823Z</updated>
+    <title>test-mag</title>
+    <link href="https://yunzd.life/2021/07/02/test-mag/"/>
+    <id>https://yunzd.life/2021/07/02/test-mag/</id>
+    <published>2021-07-02T03:58:20.000Z</published>
+    <updated>2021-07-02T04:08:34.754Z</updated>
     
     
       
@@ -33,6 +33,31 @@
       
     
     
+    
+    <category term="水刊" scheme="https://yunzd.life/categories/%E6%B0%B4%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>anime_md_test</title>
+    <link href="https://yunzd.life/2021/06/01/anime-md-test/"/>
+    <id>https://yunzd.life/2021/06/01/anime-md-test/</id>
+    <published>2021-06-01T12:51:05.000Z</published>
+    <updated>2021-07-01T06:04:57.564Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="music" scheme="https://yunzd.life/categories/music/"/>
     
     
   </entry>
