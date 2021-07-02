@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>anime_md_test | 云之巅</title><meta name="author" content="云之巅"><meta name="copyright" content="云之巅"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="ANIME莉兹与青鸟リズと青い鳥排名 #46话数 18.4&amp;nbsp;力荐铠塚霙，高中3年级，双簧管演奏者。 伞木希美，高中3年级，长笛演奏者。  初中时，是希美牵起了霙的手，带领她走出了孤独。 自那以后，希美就占据了霙的整个世界。 只有与希美在一起的生活，才令霙感到幸福。 可在高中一年级，希美一度退出了吹奏部。而她的归来，也始终未能抹去霙心中的不安。 ——是否有一天，希美会再">
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>anime_md_test | 云之巅</title><meta name="author" content="云之巅"><meta name="copyright" content="云之巅"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="ANIME莉兹与青鸟リズと青い鳥排名 #46话数 18.4&amp;nbsp;力荐铠塚霙，高中3年级，双簧管演奏者。 伞木希美，高中3年级，长笛演奏者。  初中时，是希美牵起了霙的手，带领她走出了孤独。 自那以后，希美就占据了霙的整个世界。 只有与希美在一起的生活，才令霙感到幸福。 可在高中一年级，希美一度退出了吹奏部。而她的归来，也始终未能抹去霙心中的不安。 ——是否有一天，希美会再次消">
 <meta property="og:type" content="article">
 <meta property="og:title" content="anime_md_test">
 <meta property="og:url" content="https://yunzd.life/2021/06/01/anime-md-test/index.html">
 <meta property="og:site_name" content="云之巅">
-<meta property="og:description" content="ANIME莉兹与青鸟リズと青い鳥排名 #46话数 18.4&amp;nbsp;力荐铠塚霙，高中3年级，双簧管演奏者。 伞木希美，高中3年级，长笛演奏者。  初中时，是希美牵起了霙的手，带领她走出了孤独。 自那以后，希美就占据了霙的整个世界。 只有与希美在一起的生活，才令霙感到幸福。 可在高中一年级，希美一度退出了吹奏部。而她的归来，也始终未能抹去霙心中的不安。 ——是否有一天，希美会再">
+<meta property="og:description" content="ANIME莉兹与青鸟リズと青い鳥排名 #46话数 18.4&amp;nbsp;力荐铠塚霙，高中3年级，双簧管演奏者。 伞木希美，高中3年级，长笛演奏者。  初中时，是希美牵起了霙的手，带领她走出了孤独。 自那以后，希美就占据了霙的整个世界。 只有与希美在一起的生活，才令霙感到幸福。 可在高中一年级，希美一度退出了吹奏部。而她的归来，也始终未能抹去霙心中的不安。 ——是否有一天，希美会再次消">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://yunzd.life/2021/06/01/anime-md-test/maxresdefault.jpg">
 <meta property="article:published_time" content="2021-06-01T12:51:05.000Z">
@@ -128,26 +128,11 @@
       }
       const t = saveToLocal.get('theme')
     
-          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
-          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
-          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
-
-          if (t === undefined) {
-            if (isLightMode) activateLightMode()
-            else if (isDarkMode) activateDarkMode()
-            else if (isNotSpecified || hasNoSupport) {
-              const now = new Date()
-              const hour = now.getHours()
-              const isNight = hour <= 6 || hour >= 18
-              isNight ? activateDarkMode() : activateLightMode()
-            }
-            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
-              if (saveToLocal.get('theme') === undefined) {
-                e.matches ? activateDarkMode() : activateLightMode()
-              }
-            })
-          } else if (t === 'light') activateLightMode()
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -161,9 +146,7 @@
     })(window)</script><link rel="stylesheet" href="/css/social-icon.css"><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="云之巅" type="application/atom+xml">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" class="aplayer-style-marker">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-script-marker"></script>
-<script src="/assets/js/DPlayer.min.js"></script></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/2021/06/01/anime-md-test/maxresdefault.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">云之巅</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">anime_md_test</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-06-01T12:51:05.000Z" title="发表于 2021-06-01 20:51:05">2021-06-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-07-01T06:04:57.564Z" title="更新于 2021-07-01 14:04:57">2021-07-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/music/">music</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">764</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><span id="more"></span>
-
-
+<script src="/assets/js/DPlayer.min.js"></script></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/2021/06/01/anime-md-test/maxresdefault.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">云之巅</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">anime_md_test</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-06-01T12:51:05.000Z" title="发表于 2021-06-01 20:51:05">2021-06-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-07-01T06:04:57.564Z" title="更新于 2021-07-01 14:04:57">2021-07-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/music/">music</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">764</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><span id="more"></span>
 <h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#46</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
 伞木希美，高中3年级，长笛演奏者。
 
@@ -186,12 +169,8 @@
 霙是莉兹，希美是青鸟。
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
-
-
-
-<p>// audio-play</p>
-
-        <div id="aplayer-BOIFYbdk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<p>// audio-play<br>
+        <div id="aplayer-PpvMjvHo" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -217,7 +196,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-BOIFYbdk"),
+            element: document.getElementById("aplayer-PpvMjvHo"),
             narrow: false,
             autoplay: false,
             showlrc: 2,
@@ -231,13 +210,9 @@
           });
           window.aplayers || (window.aplayers = []);
           window.aplayers.push(ap);
-        </script>
-
-<p>// video-play</p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"video":{"url":"/2021/06/01/anime-md-test/testmp4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
-
-
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">云之巅</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://yunzd.life/2021/06/01/anime-md-test/">https://yunzd.life/2021/06/01/anime-md-test/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://yunzd.life" target="_blank">云之巅</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/2021/06/01/anime-md-test/maxresdefault.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2021/07/02/test-mag/"><img class="prev-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">test-mag</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">云之巅</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://www.zhihu.com/people/yun-zhi-dian-zhu" target="_blank" title="知乎"><i class="iconfont icon-zhihu"></i></a><a class="social-icon" href="https://bangumi.tv/user/585999" target="_blank" title="Bangumi番组计划"><i class="iconfont icon-tv"></i></a><a class="social-icon" href="https://github.com/Freddd13" target="_blank" title="Github"><i class="iconfont icon-github"></i></a><a class="social-icon" href="https://space.bilibili.com/338452184" target="_blank" title="Bilibili"><i class="iconfont icon-bilibili-fill"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">...</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#ANIME"><span class="toc-number">1.</span> <span class="toc-text">ANIME</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number"></span> <span class="toc-text">莉兹与青鸟</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">0.0.1.</span> <span class="toc-text">リズと青い鳥</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/test-mag/" title="test-mag"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="test-mag"/></a><div class="content"><a class="title" href="/2021/07/02/test-mag/" title="test-mag">test-mag</a><time datetime="2021-07-02T03:58:20.000Z" title="发表于 2021-07-02 11:58:20">2021-07-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/01/anime-md-test/" title="anime_md_test"><img src="/2021/06/01/anime-md-test/maxresdefault.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="anime_md_test"/></a><div class="content"><a class="title" href="/2021/06/01/anime-md-test/" title="anime_md_test">anime_md_test</a><time datetime="2021-06-01T12:51:05.000Z" title="发表于 2021-06-01 20:51:05">2021-06-01</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/2021/06/01/anime-md-test/maxresdefault.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 By 云之巅</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+        </script></p>
+<p>// video-play<br><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"video":{"url":"/2021/06/01/anime-md-test/testmp4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">云之巅</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://yunzd.life/2021/06/01/anime-md-test/">https://yunzd.life/2021/06/01/anime-md-test/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://yunzd.life" target="_blank">云之巅</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/2021/06/01/anime-md-test/maxresdefault.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2021/07/02/test-mag/"><img class="prev-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">test-mag</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">云之巅</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://www.zhihu.com/people/yun-zhi-dian-zhu" target="_blank" title="知乎"><i class="iconfont icon-zhihu"></i></a><a class="social-icon" href="https://bangumi.tv/user/585999" target="_blank" title="Bangumi番组计划"><i class="iconfont icon-tv"></i></a><a class="social-icon" href="https://github.com/Freddd13" target="_blank" title="Github"><i class="iconfont icon-github"></i></a><a class="social-icon" href="https://space.bilibili.com/338452184" target="_blank" title="Bilibili"><i class="iconfont icon-bilibili-fill"></i></a><a class="social-icon" href="https://yunzd.life/atom.xml" target="_blank" title="RSS"><i class="iconfont icon-rss3"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">...</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#ANIME"><span class="toc-number">1.</span> <span class="toc-text">ANIME</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number"></span> <span class="toc-text">莉兹与青鸟</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">0.0.1.</span> <span class="toc-text">リズと青い鳥</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/" title="待做！"><img src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/20210702155942.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="待做！"/></a><div class="content"><a class="title" href="/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/" title="待做！">待做！</a><time datetime="2021-07-02T07:21:02.000Z" title="发表于 2021-07-02 15:21:02">2021-07-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/test-mag/" title="test-mag"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="test-mag"/></a><div class="content"><a class="title" href="/2021/07/02/test-mag/" title="test-mag">test-mag</a><time datetime="2021-07-02T03:58:20.000Z" title="发表于 2021-07-02 11:58:20">2021-07-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/01/anime-md-test/" title="anime_md_test"><img src="/2021/06/01/anime-md-test/maxresdefault.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="anime_md_test"/></a><div class="content"><a class="title" href="/2021/06/01/anime-md-test/" title="anime_md_test">anime_md_test</a><time datetime="2021-06-01T12:51:05.000Z" title="发表于 2021-06-01 20:51:05">2021-06-01</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 By 云之巅</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
@@ -256,7 +231,7 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
       mermaid.initialize({
         theme: 'default',
       })
-      false && mermaid.init()
+      true && mermaid.init()
     })
   }
 }</script><script>function addGitalkSource () {
@@ -307,4 +282,87 @@ if ('Gitalk' === 'Gitalk' || !false) {
   function loadOtherComment () {
     loadGitalk()
   }
-}</script></div></div></body></html>
+}</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener toc scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div></body></html>

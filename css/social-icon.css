@@ -1,16 +1,20 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2646277 */
-  src: url('//at.alicdn.com/t/font_2646277_mg5bk6x7we.woff2?t=1625138989627') format('woff2'),
-       url('//at.alicdn.com/t/font_2646277_mg5bk6x7we.woff?t=1625138989627') format('woff'),
-       url('//at.alicdn.com/t/font_2646277_mg5bk6x7we.ttf?t=1625138989627') format('truetype');
+  src: url('//at.alicdn.com/t/font_2646277_uyd8xv5n1re.woff2?t=1625235170999') format('woff2'),
+       url('//at.alicdn.com/t/font_2646277_uyd8xv5n1re.woff?t=1625235170999') format('woff'),
+       url('//at.alicdn.com/t/font_2646277_uyd8xv5n1re.ttf?t=1625235170999') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 23px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rss3:before {
+  content: "\e6eb";
 }
 
 .icon-tv1:before {
@@ -41,17 +45,12 @@
   content: "\e87c";
 }
 
-.icon-rss:before {
-  content: "\f09c";
-}
-
 .icon-telegram1:before {
   content: "\e78f";
 }
 
 .icon-github:before {
   content: "\e88a";
-  font-size: 21px;
 }
 
 .icon-wechat:before {

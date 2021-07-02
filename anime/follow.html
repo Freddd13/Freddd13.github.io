@@ -55,7 +55,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2021-07-02 13:25:15'
+  postUpdate: '2021-07-02 23:54:43'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -126,26 +126,11 @@
       }
       const t = saveToLocal.get('theme')
     
-          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
-          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
-          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
-
-          if (t === undefined) {
-            if (isLightMode) activateLightMode()
-            else if (isDarkMode) activateDarkMode()
-            else if (isNotSpecified || hasNoSupport) {
-              const now = new Date()
-              const hour = now.getHours()
-              const isNight = hour <= 6 || hour >= 18
-              isNight ? activateDarkMode() : activateLightMode()
-            }
-            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
-              if (saveToLocal.get('theme') === undefined) {
-                e.matches ? activateDarkMode() : activateLightMode()
-              }
-            })
-          } else if (t === 'light') activateLightMode()
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -157,7 +142,7 @@
         }
       }
     })(window)</script><link rel="stylesheet" href="/css/social-icon.css"><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="云之巅" type="application/atom+xml">
-</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">云之巅</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">追番列表</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">云之巅</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B0%B4%E5%88%8A/"><i class="fa-fw fas fa-atlas"></i><span> 水刊</span></a></div><div class="menus_item"><a class="site-page" href="/anime/follow.html"><i class="fa-fw fas fa-tv"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 其他</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-cheese"></i><span> 资源</span></a></li><li><a class="site-page child" href="/categories/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 施工中</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">追番列表</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container">
 <blockquote>
     <p>数据来自Bangumi番组计划</p>
 </blockquote>
@@ -220,7 +205,7 @@
 
 ひとりぼっちの女の子と、世界で最も優れたバイクが紡ぐ、友情の物語。
 
-山梨県北杜市の高校に通う女の子、小熊。両親も友達も趣味も無い、何も無い日々を過ごす彼女だが、ふと見かけた中古のスーパーカブを買ったことで、ちょっとずつ短調な毎日が変わり始める... </div>
+山梨県北杜市の高校に通う女の子、小熊。両親も友達も趣味も無い、何も無い日々を過ごす彼女だが、ふと見かけた中古のスーパーカブを買ったことで、ちょっとずつ短調な毎日が変わり始める。... </div>
     </div>
 </div>
 
@@ -354,7 +339,7 @@
 虽然年纪和性格都不相同，一起赏花，一起在河边玩耍，一起挖白薯，一起挖雪洞……
 一起度过春夏秋冬，享受着田间生活。
 虽然在平淡的生活中可能并未察觉，不知不觉中，一起欢笑，一起流泪，心中变得温暖起来。
-这样悠哉游哉的时光再次到来... </div>
+这样悠哉游哉的时光再次到来。... </div>
     </div>
 </div>
 
@@ -574,7 +559,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：因缘际会下，来到日本最西端的岛上生活的年轻帅哥书法家·半田清舟。在开始不习惯的乡村生活的“老师”面前，出现了一名天真浪漫的岛上囝仔·奈留……？在都市长大的傲娇老师和胸襟异常宽阔的岛上居民交织而成的触动人心岛屿喜剧... </div>
+        <div class="bangumi-comments" ><br/>简介：因缘际会下，来到日本最西端的岛上生活的年轻帅哥书法家·半田清舟。在开始不习惯的乡村生活的“老师”面前，出现了一名天真浪漫的岛上囝仔·奈留……？在都市长大的傲娇老师和胸襟异常宽阔的岛上居民交织而成的触动人心岛屿喜剧！... </div>
     </div>
 </div>
 
@@ -705,7 +690,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：      高中三年级的冬天、剩下没多久的高中生活，大家都认为会在毫无变化的情况下迎来毕业之日……但在某一天，他突然回来了，在中学时搬到遥远城镇的同学，变成不合时节的转学生再次相会，伴随着某种不确定的感情、转变开始的信号微弱的发出了声响…... </div>
+        <div class="bangumi-comments" ><br/>简介：      高中三年级的冬天、剩下没多久的高中生活，大家都认为会在毫无变化的情况下迎来毕业之日……但在某一天，他突然回来了，在中学时搬到遥远城镇的同学，变成不合时节的转学生再次相会，伴随着某种不确定的感情、转变开始的信号微弱的发出了声响……... </div>
     </div>
 </div>
 
@@ -873,7 +858,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：没有神社供奉、缺少香火的落魄神明夜斗，因为性格缺陷，导致手下的神器纷纷跳槽。怀抱“受万民景仰”这个伟大理想的他，只好只身在此岸与彼岸间徘徊，为五块钱的香油钱（五斗米）折腰，接受上至斩妖除魔，下至修东修西的各类委托…... </div>
+        <div class="bangumi-comments" ><br/>简介：没有神社供奉、缺少香火的落魄神明夜斗，因为性格缺陷，导致手下的神器纷纷跳槽。怀抱“受万民景仰”这个伟大理想的他，只好只身在此岸与彼岸间徘徊，为五块钱的香油钱（五斗米）折腰，接受上至斩妖除魔，下至修东修西的各类委托……... </div>
     </div>
 </div>
 
@@ -1263,7 +1248,7 @@
 否応なく踏み込んだ世界、そこは“最高×最悪のゾンビワールド”
 少女たちの願いは、たった一つ。
 「私たち、生きたい。」
-これは、少女達が起こす奇跡の物語... </div>
+これは、少女達が起こす奇跡の物語。... </div>
     </div>
 </div>
 
@@ -1305,7 +1290,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：本作的故事主要围绕追逐梦想的五名女生——宫森葵、安原绘麻、坂木静香、藤堂美沙、今井绿展开，是一部描写以白箱的完成为目标而奋斗的她们，每天遇到的麻烦以及策划工作时碰到的纠葛与挫折，还有制作组在制作作品时的团结和冲突的动画业界的日常的群像剧作品... </div>
+        <div class="bangumi-comments" ><br/>简介：本作的故事主要围绕追逐梦想的五名女生——宫森葵、安原绘麻、坂木静香、藤堂美沙、今井绿展开，是一部描写以白箱的完成为目标而奋斗的她们，每天遇到的麻烦以及策划工作时碰到的纠葛与挫折，还有制作组在制作作品时的团结和冲突的动画业界的日常的群像剧作品。... </div>
     </div>
 </div>
 
@@ -1347,7 +1332,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：这是有关各式各样的人们取回什么的温馨故事，同时也是有关斗争的故事。主人公桐山零，幼时因为意外事故失去了家人，是一个背负着沉重的孤独的17岁将棋棋士。独自居住在东京旧市镇桐山零遇见了明里、日向、桃三姐妹，少年桐山零因此发生了改变... </div>
+        <div class="bangumi-comments" ><br/>简介：这是有关各式各样的人们取回什么的温馨故事，同时也是有关斗争的故事。主人公桐山零，幼时因为意外事故失去了家人，是一个背负着沉重的孤独的17岁将棋棋士。独自居住在东京旧市镇桐山零遇见了明里、日向、桃三姐妹，少年桐山零因此发生了改变。... </div>
     </div>
 </div>
 
@@ -1479,7 +1464,7 @@
             </span>
         </div>
         <div class="bangumi-comments" ><br/>简介：自称“中下”等级的女高中生千绪，上学时徒步从自家前往学校。但是在上学路上等待着的，却是从意外的禁止通行、与距离感微妙的同学相遇开始，到堵在路上的暴走族、以及尿意……等等，各种各样的障碍。
-千绪能在今天早上也顺利地按时到校吗……！... </div>
+千绪能在今天早上也顺利地按时到校吗……！？... </div>
     </div>
 </div>
 
@@ -1612,7 +1597,7 @@
         <div class="bangumi-comments" ><br/>简介：在水族馆工作的18岁女高中生·海咲野空琉，与在东京失去了自己的位置、因而逃走的前偶像宫泽风花相遇了。空琉和风花将各自的想法埋藏于心、在水族馆中度过了一段时光。
 但是，在那个重要的地方，闭馆的危机正在迫近。
 少女们的梦想与现实，孤独与朋友，羁绊与纠结——
-将会在这个夏天展开闪耀的新篇章... </div>
+将会在这个夏天展开闪耀的新篇章。... </div>
     </div>
 </div>
 
@@ -1828,7 +1813,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：时间是1990年代的日本，远野贵树与筱原明里原本是同班同学的好朋友，自从小学毕业之后，两人都没有再见一次面。分隔两地的两个人，靠着书信往来保持联络，直到贵树知道即将跟随家人搬到鹿儿岛，距离明里更远的地方，于是两人约定了再见面的时间。计划好的行程，却遇上了暴风雪……... </div>
+        <div class="bangumi-comments" ><br/>简介：时间是1990年代的日本，远野贵树与筱原明里原本是同班同学的好朋友，自从小学毕业之后，两人都没有再见一次面。分隔两地的两个人，靠着书信往来保持联络，直到贵树知道即将跟随家人搬到鹿儿岛，距离明里更远的地方，于是两人约定了再见面的时间。计划好的行程，却遇上了暴风雪……。... </div>
     </div>
 </div>
 
@@ -1870,7 +1855,7 @@
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：高中女生佐仓千代好不容易提起勇气向同年级的野崎梅太郎告白，得到的却是野崎的亲笔签名，和“要不要来我家？”的邀请。佐仓虽然对意料之外的展开感到困惑，却还是带着期待来到野崎家，没想到等着她的却是漫画原稿，不知不觉间就顺着野崎的指示开始进行涂黑作业。到这时佐仓才发现野崎是知名少女漫画家梦野咲子... </div>
+        <div class="bangumi-comments" ><br/>简介：高中女生佐仓千代好不容易提起勇气向同年级的野崎梅太郎告白，得到的却是野崎的亲笔签名，和“要不要来我家？”的邀请。佐仓虽然对意料之外的展开感到困惑，却还是带着期待来到野崎家，没想到等着她的却是漫画原稿，不知不觉间就顺着野崎的指示开始进行涂黑作业。到这时佐仓才发现野崎是知名少女漫画家梦野咲子。... </div>
     </div>
 </div>
 
@@ -2001,7 +1986,8 @@
 
 由崎星空对神秘美少女——司一见钟情。
 面对星空决死的告白，她的回答是“如果你愿意和我结婚，那我就跟你交往”？！
-充满了星空与司的爱，可爱&amp;高贵的新婚生活开始了！！... </div>
+充满了星空与司的爱，可爱&amp;高贵的新婚生活开始了！！
+... </div>
     </div>
 </div>
 
@@ -2045,7 +2031,7 @@
         </div>
         <div class="bangumi-comments" ><br/>简介：在青森开始做魔女！
 青森——在这片被丰饶的大自然围绕的土地上，有时会发生些不可思议的事情。
-木幡真琴15岁，魔女。和黑猫千户一同从横滨过来的她，开始在青森的亲戚家里修行。虽然现在还只是仅仅能飞上天空这种程度，但她仍然和表兄妹圭和千夏一起度过着充实的生活... </div>
+木幡真琴15岁，魔女。和黑猫千户一同从横滨过来的她，开始在青森的亲戚家里修行。虽然现在还只是仅仅能飞上天空这种程度，但她仍然和表兄妹圭和千夏一起度过着充实的生活。... </div>
     </div>
 </div>
 
@@ -2616,7 +2602,7 @@
             </span>
         </div>
         <div class="bangumi-comments" ><br/>简介：这是从异世界传承下光辉的姓名与竞跑能力的“马娘”、自久以来与人类共存着的世界的故事。
-从乡下转学到大都市的训中学园的马娘·特别周，与同学们互相切磋、赌上“日本第一马娘”的称号，目标：在“Twinkle系列”中的胜利... </div>
+从乡下转学到大都市的训中学园的马娘·特别周，与同学们互相切磋、赌上“日本第一马娘”的称号，目标：在“Twinkle系列”中的胜利！... </div>
     </div>
 </div>
 
@@ -2702,7 +2688,7 @@
         </div>
         <div class="bangumi-comments" ><br/>简介：仰慕的母亲并非亲生母亲。一起生活的他们并非兄弟。
 Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘关系，但妈妈和38个兄弟都度过了幸福的每一天，这是不可替代的家。
-但是，他们的日常在某一天突然宣告结束…... </div>
+但是，他们的日常在某一天突然宣告结束……... </div>
     </div>
 </div>
 
@@ -2745,7 +2731,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
             </span>
         </div>
         <div class="bangumi-comments" ><br/>简介：　原作是武田日向在月刊《DragonAGE》连载的漫画作品。
-　　19世纪后半、是西欧正好流行日本文化的时代。一位单身前往法国的日本少女汤音，在巴黎街上的工艺店“国王的招牌店（アンセーニュ・ド・ロア）”工作著。本故事即是描述她的成长，与年轻老板的克洛德的往来的巴黎滞留记... </div>
+　　19世纪后半、是西欧正好流行日本文化的时代。一位单身前往法国的日本少女汤音，在巴黎街上的工艺店“国王的招牌店（アンセーニュ・ド・ロア）”工作著。本故事即是描述她的成长，与年轻老板的克洛德的往来的巴黎滞留记。... </div>
     </div>
 </div>
 
@@ -2792,7 +2778,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
 在树洞里建造家、把树叶当做伞、坐在昆虫或鸟的背上……
 身高9厘米的话，这种事情也是能做得到的。
 不去悄悄地偷看一下吗？
-她们那安详而愉快，十分可爱的生活... </div>
+她们那安详而愉快，十分可爱的生活。... </div>
     </div>
 </div>
 
@@ -3420,7 +3406,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
             </span>
         </div>
         <div class="bangumi-comments" ><br/>简介：透が紫呉の家に住み始めてから一年が経とうとしていた。由希と夾だけでなく草摩家の皆とも交流を深めてきたが、今も気になるのは忌まわしき『呪い』の正体。
-進むべき道、決められた宿命、終わりなき――十二支の――宴を前にして由希は、夾は、そして透は何を想い、何を決意するのだろうか……... </div>
+進むべき道、決められた宿命、終わりなき――十二支の――宴を前にして由希は、夾は、そして透は何を想い、何を決意するのだろうか……。... </div>
     </div>
 </div>
 
@@ -3467,7 +3453,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
 服务员们想法只有一个。
 “不论真实身份是什么，不论是何等样人，客人就是神。”
 当然，现在在眼前的你也是……
-请接触柚她们的“招待”，来治愈疲惫的心吧... </div>
+请接触柚她们的“招待”，来治愈疲惫的心吧。... </div>
     </div>
 </div>
 
@@ -3511,7 +3497,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
         </div>
         <div class="bangumi-comments" ><br/>简介：16岁少女松前緒花，平凡的日常生活在某天迎来了戏剧化的改变。
 生于东京的她离开熟悉的环境，来到祖母所经营的拥有大正浪漫氛围的山间温泉旅馆——喜翠庄打工，展开了崭新的生活。
-如同阳光下盛开的鲜花一般，相信梦想终有一天一定会开花…... </div>
+如同阳光下盛开的鲜花一般，相信梦想终有一天一定会开花……... </div>
     </div>
 </div>
 
@@ -3870,7 +3856,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
 摩滅しゆく心に灯るは無数の光——己を取り巻く総ての生命という輝き。
 往くべき処を悟るモノ、還るべき温もりを示す者。
 其々が其々の”生”を全うする刻、かの地に鳴り渡るのは——
-幽寂なる調べ... </div>
+幽寂なる調べ。... </div>
     </div>
 </div>
 
@@ -4215,7 +4201,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：2016年に放送されたTVアニメ『Re:ゼロから始める異世界生活』が新たに1時間番組として放送決定！新規カットを追加し、1時間番組として再編集を行った《新編集版》となる『Re:ゼロから始める異世界生活』は2020年1月1日(水)よりAT-X、TOKYO MX、BS11ほかにて放送スタート... </div>
+        <div class="bangumi-comments" ><br/>简介：2016年に放送されたTVアニメ『Re:ゼロから始める異世界生活』が新たに1時間番組として放送決定！新規カットを追加し、1時間番組として再編集を行った《新編集版》となる『Re:ゼロから始める異世界生活』は2020年1月1日(水)よりAT-X、TOKYO MX、BS11ほかにて放送スタート。... </div>
     </div>
 </div>
 
@@ -4257,7 +4243,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：日食发生之时，虫子最易活跃且容易发生状况，主人公银古守护的村子就出现了奇异的虫子遮天蔽日，人们最熟悉的太阳光芒即将消失。在苦苦寻找根源的时候，银古发现了一对身体奇特的姐妹，进而找到了虫子的“根”，与村民合力把根送到太阳照到的地方，解除了阳光被遮挡的危机... </div>
+        <div class="bangumi-comments" ><br/>简介：日食发生之时，虫子最易活跃且容易发生状况，主人公银古守护的村子就出现了奇异的虫子遮天蔽日，人们最熟悉的太阳光芒即将消失。在苦苦寻找根源的时候，银古发现了一对身体奇特的姐妹，进而找到了虫子的“根”，与村民合力把根送到太阳照到的地方，解除了阳光被遮挡的危机。... </div>
     </div>
 </div>
 
@@ -4341,7 +4327,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：转眼间经已12月18日，凉宫春日期待已久的圣诞节即将来临。SOS团火锅派对的活动拍板以后，阿虚就带着烦恼回家。第二天，阿虚如常上学，但他很快注意到，学校发生了与平日完全不同的事。应该在后面的座位的凉宫春日不在，却换上了理应让长门有希消灭了的朝仓凉子…... </div>
+        <div class="bangumi-comments" ><br/>简介：转眼间经已12月18日，凉宫春日期待已久的圣诞节即将来临。SOS团火锅派对的活动拍板以后，阿虚就带着烦恼回家。第二天，阿虚如常上学，但他很快注意到，学校发生了与平日完全不同的事。应该在后面的座位的凉宫春日不在，却换上了理应让长门有希消灭了的朝仓凉子……... </div>
     </div>
 </div>
 
@@ -4995,7 +4981,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
             </span>
         </div>
         <div class="bangumi-comments" ><br/>简介：我的妹妹小埋16岁，完美的妹妹，完美的高中生，但在家里却是个超懒的干物妹。
-然而妹妹在家的一切她生活中的朋友并不知道，居住在同一栋楼的天然少女，以及无意间来到我家的冷酷少女，她们会发现小埋的真实面目吗... </div>
+然而妹妹在家的一切她生活中的朋友并不知道，居住在同一栋楼的天然少女，以及无意间来到我家的冷酷少女，她们会发现小埋的真实面目吗？... </div>
     </div>
 </div>
 
@@ -5079,7 +5065,8 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：鹿目圆，本来是一位拥有幸福日常生活的平凡人，直至为了解放残酷命运连锁的那天，她赌上身心去改变世界法则，拯救一众魔法少女。因为极度思念而奇迹般保着相关记忆的少女，晓美焰，在重组后的世界继续战斗，并一直盼望彼此带着值得怀缅的欢笑，再次相遇。于这样的一个世界中，魔法少女看到的究竟是希望，还是绝望？... </div>
+        <div class="bangumi-comments" ><br/>简介：鹿目圆，本来是一位拥有幸福日常生活的平凡人，直至为了解放残酷命运连锁的那天，她赌上身心去改变世界法则，拯救一众魔法少女。因为极度思念而奇迹般保着相关记忆的少女，晓美焰，在重组后的世界继续战斗，并一直盼望彼此带着值得怀缅的欢笑，再次相遇。于这样的一个世界中，魔法少女看到的究竟是希望，还是绝望？
+... </div>
     </div>
 </div>
 
@@ -5121,7 +5108,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：出生良好家庭，亲朋好友团聚，时哭时笑，这是谁都拥有的日常生活。市立见泷原中学的平凡初二女生鹿目圆，就是其中一位。一天，一个不可思议的人出现在她眼前。不知是偶然抑或注定，可以肯定的是，这相遇改变了她的命运，一个新的魔法少女故事亦随即开始... </div>
+        <div class="bangumi-comments" ><br/>简介：出生良好家庭，亲朋好友团聚，时哭时笑，这是谁都拥有的日常生活。市立见泷原中学的平凡初二女生鹿目圆，就是其中一位。一天，一个不可思议的人出现在她眼前。不知是偶然抑或注定，可以肯定的是，这相遇改变了她的命运，一个新的魔法少女故事亦随即开始。... </div>
     </div>
 </div>
 
@@ -5257,7 +5244,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
         </div>
         <div class="bangumi-comments" ><br/>简介：我一定会拯救你的。
 打倒了担任「怠惰」的魔女教大罪司教，贝特鲁吉乌斯·罗曼尼康帝后，菜月昴和爱蜜莉雅又再度相遇了。在跨越了痛苦的诀别，两人终于和解，而新的篇章却又开始了。
-超乎想象九死一生的危机，以及冷酷无情的现实。少年将再次起身，面对残酷的命运... </div>
+超乎想象九死一生的危机，以及冷酷无情的现实。少年将再次起身，面对残酷的命运。... </div>
     </div>
 </div>
 
@@ -5299,7 +5286,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：昴等人打倒了诅咒的元凶——魔兽沃尔加姆，拯救了阿拉姆村的孩子们。终于到来的安稳并未持续很久，昴就瞒着所有人前去挑战某个极秘任务。尽管昴做了变装，但很快就被以佩特拉为首的村里的孩子们识破了真实身份。开始后5秒就曝光的这一任务，是事前调查和艾米莉亚约会的路线……... </div>
+        <div class="bangumi-comments" ><br/>简介：昴等人打倒了诅咒的元凶——魔兽沃尔加姆，拯救了阿拉姆村的孩子们。终于到来的安稳并未持续很久，昴就瞒着所有人前去挑战某个极秘任务。尽管昴做了变装，但很快就被以佩特拉为首的村里的孩子们识破了真实身份。开始后5秒就曝光的这一任务，是事前调查和艾米莉亚约会的路线……。... </div>
     </div>
 </div>
 
@@ -5387,7 +5374,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：　从便利店回来的路上突然被召唤到异世界的少年，菜月昴。在无可依赖的异世界，无力的少年所唯一拥有的力量……那就是死后便会使时间倒转的“死亡回归”的力量。为了守护重要的人，并取回那些无可替代的时间，少年向绝望抗争，挺身面对残酷的命运... </div>
+        <div class="bangumi-comments" ><br/>简介：　从便利店回来的路上突然被召唤到异世界的少年，菜月昴。在无可依赖的异世界，无力的少年所唯一拥有的力量……那就是死后便会使时间倒转的“死亡回归”的力量。为了守护重要的人，并取回那些无可替代的时间，少年向绝望抗争，挺身面对残酷的命运。... </div>
     </div>
 </div>
 
@@ -5429,7 +5416,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
                 </span>
             </span>
         </div>
-        <div class="bangumi-comments" ><br/>简介：由直木赏作家樱庭一树所著、武田日向担当插画的侦探类轻小说作品「GOSICK」，故事主要讲述了就读于拥有悠久庄严历史的圣玛格丽特学园的少年久城一弥某天与在学园图书馆塔上方的房间内一位身穿华丽服饰如洋娃娃般的少女维多利加相遇，之后两人便遭遇到了种种离奇事件，种种难题正等着洞察力灵敏的维多利加与一弥... </div>
+        <div class="bangumi-comments" ><br/>简介：由直木赏作家樱庭一树所著、武田日向担当插画的侦探类轻小说作品「GOSICK」，故事主要讲述了就读于拥有悠久庄严历史的圣玛格丽特学园的少年久城一弥某天与在学园图书馆塔上方的房间内一位身穿华丽服饰如洋娃娃般的少女维多利加相遇，之后两人便遭遇到了种种离奇事件，种种难题正等着洞察力灵敏的维多利加与一弥。... </div>
     </div>
 </div>
 
@@ -5473,7 +5460,7 @@ Grace=FieldHouse是没有父母的孩子们居住的地方。虽然没有血缘�
         </div>
         <div class="bangumi-comments" ><br/>简介：利用检测杀意的系统“罔象女”搜查犯罪事件的组织，通称“仓”。
 然后，神探·酒井户身为“罔象女”的驾驶员进入犯人的深层心理“杀意世界（井）”，对事件进行推理。
-他不断追寻着频繁发生、谜团重重的凶恶事件，以及在其中若隐若现的连续杀人鬼制造者“约翰·沃克”的影子... </div>
+他不断追寻着频繁发生、谜团重重的凶恶事件，以及在其中若隐若现的连续杀人鬼制造者“约翰·沃克”的影子。... </div>
     </div>
 </div>
 
@@ -6101,14 +6088,14 @@ var c=this.id.replace("tab","item"),d=document.getElementById(c);d.classList.rem
 var size=pagenums[i].parentNode.siblings().length;pagenums[i].innerText="1 / "+(0===Math.ceil(size/10)?1:Math.ceil(size/10)),firstpages[i].click()}
 
 </script>
-</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">云之巅</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://www.zhihu.com/people/yun-zhi-dian-zhu" target="_blank" title="知乎"><i class="iconfont icon-zhihu"></i></a><a class="social-icon" href="https://bangumi.tv/user/585999" target="_blank" title="Bangumi番组计划"><i class="iconfont icon-tv"></i></a><a class="social-icon" href="https://github.com/Freddd13" target="_blank" title="Github"><i class="iconfont icon-github"></i></a><a class="social-icon" href="https://space.bilibili.com/338452184" target="_blank" title="Bilibili"><i class="iconfont icon-bilibili-fill"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">...</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/test-mag/" title="test-mag"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="test-mag"/></a><div class="content"><a class="title" href="/2021/07/02/test-mag/" title="test-mag">test-mag</a><time datetime="2021-07-02T03:58:20.000Z" title="发表于 2021-07-02 11:58:20">2021-07-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/01/anime-md-test/" title="anime_md_test"><img src="/2021/06/01/anime-md-test/maxresdefault.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="anime_md_test"/></a><div class="content"><a class="title" href="/2021/06/01/anime-md-test/" title="anime_md_test">anime_md_test</a><time datetime="2021-06-01T12:51:05.000Z" title="发表于 2021-06-01 20:51:05">2021-06-01</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/picgo_imgtop.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">云之巅</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://www.zhihu.com/people/yun-zhi-dian-zhu" target="_blank" title="知乎"><i class="iconfont icon-zhihu"></i></a><a class="social-icon" href="https://bangumi.tv/user/585999" target="_blank" title="Bangumi番组计划"><i class="iconfont icon-tv"></i></a><a class="social-icon" href="https://github.com/Freddd13" target="_blank" title="Github"><i class="iconfont icon-github"></i></a><a class="social-icon" href="https://space.bilibili.com/338452184" target="_blank" title="Bilibili"><i class="iconfont icon-bilibili-fill"></i></a><a class="social-icon" href="https://yunzd.life/atom.xml" target="_blank" title="RSS"><i class="iconfont icon-rss3"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">...</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/" title="待做！"><img src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/20210702155942.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="待做！"/></a><div class="content"><a class="title" href="/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/" title="待做！">待做！</a><time datetime="2021-07-02T07:21:02.000Z" title="发表于 2021-07-02 15:21:02">2021-07-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/test-mag/" title="test-mag"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="test-mag"/></a><div class="content"><a class="title" href="/2021/07/02/test-mag/" title="test-mag">test-mag</a><time datetime="2021-07-02T03:58:20.000Z" title="发表于 2021-07-02 11:58:20">2021-07-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/01/anime-md-test/" title="anime_md_test"><img src="/2021/06/01/anime-md-test/maxresdefault.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="anime_md_test"/></a><div class="content"><a class="title" href="/2021/06/01/anime-md-test/" title="anime_md_test">anime_md_test</a><time datetime="2021-06-01T12:51:05.000Z" title="发表于 2021-06-01 20:51:05">2021-06-01</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/music/"><span class="card-category-list-name">music</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B0%B4%E5%88%8A/"><span class="card-category-list-name">水刊</span><span class="card-category-list-count">1</span></a></li>
-            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">765</div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-07-02T05:25:15.139Z"></div></div></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2021 By 云之巅</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/TODO/" style="font-size: 1.1em; color: #999">TODO</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">1.1k</div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-07-02T15:54:43.135Z"></div></div></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2021 By 云之巅</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
@@ -6127,7 +6114,7 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
       mermaid.initialize({
         theme: 'default',
       })
-      false && mermaid.init()
+      true && mermaid.init()
     })
   }
 }</script><script>function addGitalkSource () {
@@ -6178,4 +6165,87 @@ if ('Gitalk' === 'Gitalk' || !false) {
   function loadOtherComment () {
     loadGitalk()
   }
-}</script></div></div></body></html>
+}</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener toc scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div></body></html>
