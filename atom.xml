@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>云之巅</title>
+  <title>云之巅YunzD</title>
   
   
-  <link href="https://yunzd.life/atom.xml" rel="self"/>
+  <link href="https://blog.yunzd.life/atom.xml" rel="self"/>
   
-  <link href="https://yunzd.life/"/>
-  <updated>2021-07-02T15:12:50.654Z</updated>
-  <id>https://yunzd.life/</id>
+  <link href="https://blog.yunzd.life/"/>
+  <updated>2021-07-03T23:45:32.848Z</updated>
+  <id>https://blog.yunzd.life/</id>
   
   <author>
     <name>云之巅</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>待做！</title>
-    <link href="https://yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/"/>
-    <id>https://yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/</id>
+    <link href="https://blog.yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/"/>
+    <id>https://blog.yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/</id>
     <published>2021-07-02T07:21:02.000Z</published>
-    <updated>2021-07-02T15:12:50.654Z</updated>
+    <updated>2021-07-03T23:45:32.848Z</updated>
     
     
       
@@ -35,14 +35,14 @@
     
     
     
-    <category term="TODO" scheme="https://yunzd.life/tags/TODO/"/>
+    <category term="TODO" scheme="https://blog.yunzd.life/tags/TODO/"/>
     
   </entry>
   
   <entry>
     <title>test-mag</title>
-    <link href="https://yunzd.life/2021/07/02/test-mag/"/>
-    <id>https://yunzd.life/2021/07/02/test-mag/</id>
+    <link href="https://blog.yunzd.life/2021/07/02/test-mag/"/>
+    <id>https://blog.yunzd.life/2021/07/02/test-mag/</id>
     <published>2021-07-02T03:58:20.000Z</published>
     <updated>2021-07-02T04:08:34.754Z</updated>
     
@@ -57,17 +57,17 @@
     
     
     
-    <category term="水刊" scheme="https://yunzd.life/categories/%E6%B0%B4%E5%88%8A/"/>
+    <category term="水刊" scheme="https://blog.yunzd.life/categories/%E6%B0%B4%E5%88%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>anime_md_test</title>
-    <link href="https://yunzd.life/2021/06/01/anime-md-test/"/>
-    <id>https://yunzd.life/2021/06/01/anime-md-test/</id>
+    <link href="https://blog.yunzd.life/2021/06/01/anime-md-test/"/>
+    <id>https://blog.yunzd.life/2021/06/01/anime-md-test/</id>
     <published>2021-06-01T12:51:05.000Z</published>
-    <updated>2021-07-01T06:04:57.564Z</updated>
+    <updated>2021-07-04T00:10:35.671Z</updated>
     
     
       
@@ -80,8 +80,10 @@
     
     
     
-    <category term="music" scheme="https://yunzd.life/categories/music/"/>
+    <category term="music" scheme="https://blog.yunzd.life/categories/music/"/>
     
+    
+    <category term="noPjax" scheme="https://blog.yunzd.life/tags/noPjax/"/>
     
   </entry>
   

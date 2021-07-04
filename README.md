@@ -1,3 +1,3 @@
-## 云之巅的网站
+## 云之巅的Blog
 
-[传送门](https://yunzd.life)
+[传送门](https://blog.yunzd.life)

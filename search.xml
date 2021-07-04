@@ -4,52 +4,50 @@
     <title>待做！</title>
     <url>/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="编程"><a href="#编程" class="headerlink" title="编程"></a>编程</h2><ul>
-<li><input disabled="" type="checkbox"> C/C++ 第一次学习B站网课（当前进度：540 / 736)</li>
-<li><input disabled="" type="checkbox"> C++ 侯捷课程</li>
-<li><input disabled="" type="checkbox"> 《C++ primer》基础部分学习与巩固</li>
-<li><input disabled="" type="checkbox"> ROS官方wiki和例程- </li>
-<li><input disabled="" type="checkbox"> 《ROS机器人开发实践》</li>
-<li><input disabled="" type="checkbox"> Linux bash学习与 Linux提高</li>
-<li><input disabled="" type="checkbox"> stm32原子课程过基本实验，掌握常用用法与简单C编程 （课程当前进度： 9 / 93）</li>
+<li>C/C++ 第一次学习B站网课（<code>当前进度：540 / 736</code>)</li>
+<li>C++ 侯捷课程</li>
+<li>《C++ primer》基础部分学习与巩固</li>
+<li>ROS官方wiki和例程- </li>
+<li>《ROS机器人开发实践》</li>
+<li>Linux bash学习与 Linux提高</li>
+<li>stm32原子课程过基本实验，掌握常用用法与简单C编程 （<code>课程当前进度： 9 / 93</code>）</li>
 </ul>
 <hr>
 <ul>
-<li><input disabled="" type="checkbox"> 《SLAM十四讲第二版》</li>
-<li><input disabled="" type="checkbox"> 读SLAM综述论文 </li>
+<li>《SLAM十四讲第二版》</li>
+<li>读SLAM综述论文 </li>
 </ul>
 <h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><ul>
-<li><input disabled="" type="checkbox"> 线性代数的本质课程</li>
-<li><input disabled="" type="checkbox"> 三门数学简单复习</li>
+<li>线性代数的本质课程</li>
+<li>三门数学简单复习</li>
 </ul>
 <h2 id="外语"><a href="#外语" class="headerlink" title="外语"></a>外语</h2><ul>
-<li><input disabled="" type="checkbox"> 日语标日初级上册复习</li>
-<li><input disabled="" type="checkbox"> 日语标日初级下册学习</li>
-<li><input disabled="" type="checkbox"> 日语标日初级单词过关</li>
-<li><input disabled="" type="checkbox"> 英语单词笔记和语法复习</li>
-<li><input disabled="" type="checkbox"> 英语机器人，SLAM等专业性单词总结学习</li>
-<li><input disabled="" type="checkbox"> 单词笔记复习论文常见单词了解，专业词汇了解</li>
+<li>日语标日初级上册复习</li>
+<li>日语标日初级下册学习</li>
+<li>日语标日初级单词过关</li>
+<li>英语单词笔记和语法复习</li>
+<li>英语机器人，SLAM等专业性单词总结学习</li>
+<li>单词笔记复习论文常见单词了解，专业词汇了解</li>
 </ul>
 <hr>
 <ul>
-<li><input disabled="" type="checkbox"> LXJ科研论文写作课程</li>
-<li><input disabled="" type="checkbox"> 积累论文表达</li>
+<li>LXJ科研论文写作课程</li>
+<li>积累论文表达</li>
 </ul>
 <h2 id="娱乐"><a href="#娱乐" class="headerlink" title="娱乐"></a>娱乐</h2><ul>
-<li><p><input checked="" disabled="" type="checkbox">  hexo施工</p>
+<li><del><code>hexo施工</code></del></li>
+<li><p>编写水刊！</p>
 </li>
-<li><p><input disabled="" type="checkbox">  编写水刊！</p>
-</li>
-<li><p><input disabled="" type="checkbox">  钢琴</p>
+<li><p>钢琴</p>
 <ul>
-<li><input disabled="" type="checkbox"> 旅の途中　Arr.  Filipus Wisnumurti Pranoto）(75/100%)</li>
-<li><input disabled="" type="checkbox"> コネクト （Arr. Marasy)  （50/100%）</li>
-<li><input disabled="" type="checkbox"> 17才    (Arr. fireteamtorch)  </li>
-<li><input disabled="" type="checkbox"> 青空のラプンディ  (Arr. ものはっぱ)</li>
-<li><input checked="" disabled="" type="checkbox"> 歌に形はないけれど（Arr. Marasy)  </li>
+<li>旅の途中　Arr.  Filipus Wisnumurti Pranoto）(<code>75/100%</code>)</li>
+<li>コネクト （Arr. Marasy)  （<code>50/100%</code>）</li>
+<li>17才    (Arr. fireteamtorch)  </li>
+<li>青空のラプンディ  (Arr. ものはっぱ)</li>
+<li><del><code>歌に形はないけれど（Arr. Marasy)</code></del> </li>
 </ul>
 </li>
-<li><p><input disabled="" type="checkbox">  动漫100看过</p>
-</li>
+<li>动漫100看过</li>
 </ul>
 <blockquote>
 <p>（好多事情有生之年？写完上面这些要做的看看都吓人… 果断取消了2021TODO这字样 随缘吧）</p>
@@ -63,7 +61,7 @@
     <title>anime_md_test</title>
     <url>/2021/06/01/anime-md-test/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
-<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#46</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#45</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.5</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
 伞木希美，高中3年级，长笛演奏者。
 
 初中时，是希美牵起了霙的手，带领她走出了孤独。
@@ -86,7 +84,7 @@
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
 <p>// audio-play<br>
-        <div id="aplayer-PpvMjvHo" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-kBpesGbx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -112,14 +110,14 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-PpvMjvHo"),
+            element: document.getElementById("aplayer-kBpesGbx"),
             narrow: false,
-            autoplay: false,
+            autoplay: true,
             showlrc: 2,
             music: {
-              title: "出羽良彰",
+              title: "おふねひきの唄",
               author: "出羽良彰",
-              url: "test.mp3",
+              url: "https://cdn.jsdelivr.net/gh/Freddd13/picBed/mp3/test.mp3",
               pic: "/2021/06/01/anime-md-test/maxresdefault.jpg",
               lrc: "lyric.lrc"
             }
@@ -127,11 +125,28 @@
           window.aplayers || (window.aplayers = []);
           window.aplayers.push(ap);
         </script></p>
-<p>// video-play<br><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"video":{"url":"/2021/06/01/anime-md-test/testmp4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
-]]></content>
+<p>// video-play<br><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"https://cdn.jsdelivr.net/gh/Freddd13/picBed/video/17sai_playlist.m3u8"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
+<p>// code<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&quot;test.jpg&quot;</span>)</span><br><span class="line">cv2.imwrite(img, <span class="string">&quot;test.png&quot;</span>)</span><br><span class="line"><span class="comment"># $</span></span><br><span class="line"><span class="comment"># `$`</span></span><br></pre></td></tr></table></figure></p>
+<p>// equation<br>inlineMath: <script type="math/tex">\sigma</script><br>displayMath: </p>
+<script type="math/tex; mode=display">\sigma</script><p>example:</p>
+<script type="math/tex; mode=display">\frac{1}{k}\log_2 c(f)\quad</script><script type="math/tex; mode=display">\tfrac{1}{k}\log_2 c(f)\quad</script><script type="math/tex; mode=display">\sqrt{\frac{1}{k}\log_2 c(f)}\quad</script><script type="math/tex; mode=display">\sqrt{\dfrac{1}{k}\log_2 c(f)}\quad</script><script type="math/tex; mode=display">\frac{1}{1+\frac{1}{1+\frac{1}{c}}}\quad</script><script type="math/tex; mode=display">\cfrac{1}{1+\cfrac{1}{1+\cfrac{1}{c}}}</script><script type="math/tex; mode=display">2^k-\binom{k}{1}2^{k-1}+\binom{k}{2}2^{k-2}\quad</script><script type="math/tex; mode=display">2^k-\dbinom{k}{1}2^{k-1}+\dbinom{k}{2}2^{k-2}\quad</script><script type="math/tex; mode=display">2^k-\tbinom{k}{1}2^{k-1}+\tbinom{k}{2}2^{k-2}</script><script type="math/tex; mode=display">
+\begin{bmatrix}
+ a & b & c \\
+ d & e & \frac{f}{g} \\
+ \gamma & \delta & \omega
+\end{bmatrix}
+,
+\begin{Bmatrix}
+ a & b & c \\
+ d & e & \frac{f}{g} \\
+ \gamma & \delta & \omega
+\end{Bmatrix}</script>]]></content>
       <categories>
         <category>music</category>
       </categories>
+      <tags>
+        <tag>noPjax</tag>
+      </tags>
   </entry>
   <entry>
     <title>test-mag</title>
