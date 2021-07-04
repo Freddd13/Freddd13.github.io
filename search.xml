@@ -84,7 +84,7 @@
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
 <p>// audio-play<br>
-        <div id="aplayer-yfigaZkP" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-CzJNruZa" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -110,7 +110,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-yfigaZkP"),
+            element: document.getElementById("aplayer-CzJNruZa"),
             narrow: false,
             autoplay: true,
             showlrc: 2,
