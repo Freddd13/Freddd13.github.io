@@ -61,7 +61,7 @@
     <title>anime_md_test</title>
     <url>/2021/06/01/anime-md-test/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
-<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#46</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.5</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#45</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
 伞木希美，高中3年级，长笛演奏者。
 
 初中时，是希美牵起了霙的手，带领她走出了孤独。
@@ -84,7 +84,7 @@
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
 <p>// audio-play<br>
-        <div id="aplayer-lStGhriL" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-RrcFPNmR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -110,7 +110,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-lStGhriL"),
+            element: document.getElementById("aplayer-RrcFPNmR"),
             narrow: false,
             autoplay: true,
             showlrc: 2,
