@@ -84,7 +84,7 @@
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
 <p>// audio-play<br>
-        <div id="aplayer-TePeDJRZ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-phnFjLTG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -110,7 +110,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-TePeDJRZ"),
+            element: document.getElementById("aplayer-phnFjLTG"),
             narrow: false,
             autoplay: true,
             showlrc: 2,
@@ -171,7 +171,7 @@
 <h2 id="配置到Windows-Terminal"><a href="#配置到Windows-Terminal" class="headerlink" title="配置到Windows Terminal"></a>配置到Windows Terminal</h2><p>wt内置的是老powershell，搜索新的替换并修改样式，我的是<code>C:\Program Files\PowerShell\7\pwsh.exe</code></p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Make changes here to the powershell.exe profile.</span></span><br><span class="line">    <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;61c54bbd-c2c6-5271-96e7-009a87ff44bf&#125;&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Windows PowerShell&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;commandline&quot;</span>: <span class="string">&quot;C:/Program Files/PowerShell/7/pwsh.exe -nologo&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;colorScheme&quot;</span>: <span class="string">&quot;Andromeda&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;startingDirectory&quot;</span>: <span class="string">&quot;./&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="attr">&quot;fontFace&quot;</span>: <span class="string">&quot;Fira Code&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;fontSize&quot;</span>: <span class="number">11</span>,</span><br><span class="line">    <span class="attr">&quot;historySize&quot;</span>: <span class="number">9001</span>,</span><br><span class="line">    <span class="attr">&quot;padding&quot;</span>: <span class="string">&quot;15&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;snapOnInput&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">&quot;useAcrylic&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">&quot;acrylicOpacity&quot;</span>: <span class="number">0.5</span>,</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
 <ul>
-<li><p>color theme涉及windows terminal配置，参见官网文档，</p>
+<li><p>colorScheme涉及windows terminal配置，参见官网文档，我完整的WT配置在<a href="https://cdn.jsdelivr.net/gh/Freddd13/picBed/file/settings.json">这里</a></p>
 </li>
 <li><p>一定加-nologo，不然初始化终端上有段话很烦人</p>
 </li>
