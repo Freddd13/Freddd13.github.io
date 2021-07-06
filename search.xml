@@ -61,7 +61,7 @@
     <title>anime_md_test</title>
     <url>/2021/06/01/anime-md-test/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
-<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#45</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#45</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.5</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
 伞木希美，高中3年级，长笛演奏者。
 
 初中时，是希美牵起了霙的手，带领她走出了孤独。
@@ -84,7 +84,7 @@
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
 <p>// audio-play<br>
-        <div id="aplayer-RrcFPNmR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-TePeDJRZ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -110,7 +110,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-RrcFPNmR"),
+            element: document.getElementById("aplayer-TePeDJRZ"),
             narrow: false,
             autoplay: true,
             showlrc: 2,
@@ -156,5 +156,59 @@
       <categories>
         <category>水刊</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Win10终端配置Windows Terminal + PowerShell7</title>
+    <url>/2021/07/06/win10%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>在Windows Terminal中配置好看、好用的PowerShell</p>
+<span id="more"></span>
+<h2 id="折腾历程"><a href="#折腾历程" class="headerlink" title="折腾历程"></a>折腾历程</h2><p>接触Linux后逐渐依赖上了命令行操作，平时回到win下也常用终端。之前用了快一年Cmder，它能用一些常用的Linux命令，于是win下觉得最好没有之一，windows terminal出来后看到里面的powershell也是不以为然，还迷之自信给老师安利Cmder，结果自然是衩反推荐wt。因为不会用powershell，又觉得wt界面真比cmder好看，我Google了一下硬是把cmder给塞进wt里面了，这样又用了半年wt+cmder，缺点是启动慢，ctrl+c终止执行经常刷不出来新的提示符，而且使用上下方向键移动历史命令时经常多一个字符，还有一些迷之bug。前段时间折腾下hexo，算是第一次认真搞了下BLOG，初期生成文章以及修改主题、插件而频繁用命令行时，上面方案的缺点被无限放大，实在难以忍受，偶然开了个新的powershell窗口，看到它秒加载（后来证明是啥都没装的原因），决定转向powershell了。</p>
+<h2 id="升级PowerShell"><a href="#升级PowerShell" class="headerlink" title="升级PowerShell"></a>升级PowerShell</h2><p>Win10自带了Powershell，本来对于入门是无所谓的，但折腾hexo我经常用<code>&amp;&amp;</code>， 却发现powershell居然不支持这个，Google查到新的ps已经支持了，于是强迫症决定升级。</p>
+<p>最新的<a href="https://docs.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1">官方文档</a> 介绍了如何在启用所有安装选项的情况下无提示安装 PowerShell。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">msiexec.exe /package PowerShell<span class="literal">-7</span>.<span class="number">1.3</span><span class="literal">-win</span><span class="literal">-x64</span>.msi /quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=<span class="number">1</span> ENABLE_PSREMOTING=<span class="number">1</span> REGISTER_MANIFEST=<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h2 id="安装字体"><a href="#安装字体" class="headerlink" title="安装字体"></a>安装字体</h2><p>这里使用Fira Code  <a href="https://github.com/tonsky/FiraCode/releases/download/3.1/FiraCode_3.1.zip">https://github.com/tonsky/FiraCode/releases/download/3.1/FiraCode_3.1.zip</a> </p>
+<p>换字体解决乱码，而且总体这个字体挺好看的。只是&amp;的样子不太习惯</p>
+<h2 id="配置到Windows-Terminal"><a href="#配置到Windows-Terminal" class="headerlink" title="配置到Windows Terminal"></a>配置到Windows Terminal</h2><p>wt内置的是老powershell，搜索新的替换并修改样式，我的是<code>C:\Program Files\PowerShell\7\pwsh.exe</code></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Make changes here to the powershell.exe profile.</span></span><br><span class="line">    <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;61c54bbd-c2c6-5271-96e7-009a87ff44bf&#125;&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Windows PowerShell&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;commandline&quot;</span>: <span class="string">&quot;C:/Program Files/PowerShell/7/pwsh.exe -nologo&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;colorScheme&quot;</span>: <span class="string">&quot;Andromeda&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;startingDirectory&quot;</span>: <span class="string">&quot;./&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="attr">&quot;fontFace&quot;</span>: <span class="string">&quot;Fira Code&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;fontSize&quot;</span>: <span class="number">11</span>,</span><br><span class="line">    <span class="attr">&quot;historySize&quot;</span>: <span class="number">9001</span>,</span><br><span class="line">    <span class="attr">&quot;padding&quot;</span>: <span class="string">&quot;15&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;snapOnInput&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">&quot;useAcrylic&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">&quot;acrylicOpacity&quot;</span>: <span class="number">0.5</span>,</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>color theme涉及windows terminal配置，参见官网文档，</p>
+</li>
+<li><p>一定加-nologo，不然初始化终端上有段话很烦人</p>
+</li>
+<li><p>uuid只作标识，使用在线工具生成即可。</p>
+</li>
+<li><p>添加wt至右键菜单： <a href="https://www.zhihu.com/question/325948326">https://www.zhihu.com/question/325948326</a></p>
+</li>
+</ul>
+<h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>打开powershell7 (pwsh) 安装插件：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1. 安装 PSReadline 包，该插件可以让命令行很好用，类似 zsh</span></span><br><span class="line"><span class="built_in">Install-Module</span> <span class="literal">-Name</span> PSReadLine <span class="literal">-AllowPrerelease</span> <span class="literal">-Force</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 安装 posh-git 包，让你的 git 更好用</span></span><br><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 安装 oh-my-posh 包，让你的命令行更酷炫、优雅</span></span><br><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span> <span class="literal">-Scope</span> CurrentUser <span class="literal">-RequiredVersion</span> <span class="number">2.0</span>.<span class="number">496</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 4. 安装DirColors 包，让ls显示颜色</span></span><br><span class="line"><span class="built_in">Install-Module</span> DirColors <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/20210706220928.png" alt="image-20210706220921630"></p>
+<p>看到这篇文章，决定还是装oh-my-posh的2.x版本了。</p>
+<p>未测试安装过程是否需要魔法，默认都开。</p>
+<h2 id="配置PowerShell-Profile"><a href="#配置PowerShell-Profile" class="headerlink" title="配置PowerShell Profile"></a>配置PowerShell Profile</h2><p>类似.zshrc，加载pwsh启动参数</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">notepad <span class="variable">$Profile</span></span><br></pre></td></tr></table></figure>
+<p>我的配置:</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Import-Module</span> posh<span class="literal">-git</span> <span class="comment"># 引入 posh-git</span></span><br><span class="line"><span class="built_in">Import-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span> <span class="comment"># 引入 oh-my-posh</span></span><br><span class="line"><span class="built_in">Import-Module</span> DirColors <span class="comment"># 引入 DirColors</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">Set-Theme</span> Paradox <span class="comment"># 设置主题为 Paradox</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">Set-PSReadLineOption</span> <span class="literal">-PredictionSource</span> <span class="built_in">History</span> <span class="comment"># 设置预测文本来源为历史记录</span></span><br><span class="line"><span class="built_in">Set-PSReadlineKeyHandler</span> <span class="literal">-Key</span> Tab <span class="literal">-Function</span> Complete <span class="comment"># 设置 Tab 键补全</span></span><br><span class="line"><span class="built_in">Set-PSReadLineKeyHandler</span> <span class="literal">-Key</span> <span class="string">&quot;Ctrl+d&quot;</span> <span class="literal">-Function</span> MenuComplete <span class="comment"># 设置 Ctrl+d 为菜单补全和 Intellisense</span></span><br><span class="line"><span class="built_in">Set-PSReadLineKeyHandler</span> <span class="literal">-Key</span> <span class="string">&quot;Ctrl+z&quot;</span> <span class="literal">-Function</span> Undo <span class="comment"># 设置 Ctrl+z 为撤销</span></span><br><span class="line"><span class="built_in">Set-PSReadLineKeyHandler</span> <span class="literal">-Key</span> UpArrow <span class="literal">-Function</span> HistorySearchBackward <span class="comment"># 设置向上键为后向搜索历史记录</span></span><br><span class="line"><span class="built_in">Set-PSReadLineKeyHandler</span> <span class="literal">-Key</span> DownArrow <span class="literal">-Function</span> HistorySearchForward <span class="comment"># 设置向下键为前向搜索历史纪录</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ListDirectory</span></span> &#123;</span><br><span class="line">    <span class="built_in">ls</span> | <span class="built_in">Format-Wide</span> <span class="literal">-Column</span> <span class="number">3</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">cdDesktop</span></span> &#123;</span><br><span class="line">    <span class="built_in">cd</span> ~/Desktop</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">cdBlog</span></span> &#123;</span><br><span class="line">    <span class="built_in">cd</span> <span class="built_in">H</span>:\programming\blog\blog</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">Set-Alias</span> <span class="literal">-Name</span> l <span class="literal">-Value</span> ListDirectory</span><br><span class="line"><span class="built_in">Set-Alias</span> <span class="literal">-Name</span> ll <span class="literal">-Value</span> <span class="built_in">Get-ChildItem</span></span><br><span class="line"><span class="built_in">Set-Alias</span> <span class="literal">-Name</span> cdd <span class="literal">-Value</span> cdDesktop</span><br><span class="line"><span class="built_in">Set-Alias</span> <span class="literal">-Name</span> cblog <span class="literal">-Value</span> cdBlog</span><br></pre></td></tr></table></figure>
+<p>alias  <code>l</code>  定义后终于满足我用<code>ls</code>的需求，舒服了， 使用column将结果分的列数，使用DirColors上色。</p>
+<p>上面的插件还实现了Tab选择补全，历史搜索，git状态显示</p>
+<h2 id="最终结果"><a href="#最终结果" class="headerlink" title="最终结果"></a>最终结果</h2><p>用的是之前cmder收进terminal的配色主题，蓝色在背景半透明时有点淡，不过懒得弄了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/20210706223913.png" alt="image-20210706223913168"></p>
+<p>不过这下启动又变慢了，但各方面比Cmder方案好了太多。</p>
+<h2 id="终端其他的一些折腾"><a href="#终端其他的一些折腾" class="headerlink" title="终端其他的一些折腾"></a>终端其他的一些折腾</h2><ul>
+<li><p>gsudo</p>
+<p>在windows下使用sudo</p>
+</li>
+<li><p>待续</p>
+</li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/137595941">Windows Terminal 完美配置 PowerShell 7.1</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/137251716">给 PowerShell 带来 zsh 的体验</a></li>
+<li><a href="http://404player.cn/2020/11/07/Powershell%E4%B9%8B%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/">PowerShell美化之折腾日记</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>terminal</tag>
+      </tags>
   </entry>
 </search>

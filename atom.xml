@@ -6,7 +6,7 @@
   <link href="https://blog.yunzd.life/atom.xml" rel="self"/>
   
   <link href="https://blog.yunzd.life/"/>
-  <updated>2021-07-05T05:28:01.377Z</updated>
+  <updated>2021-07-06T14:54:36.957Z</updated>
   <id>https://blog.yunzd.life/</id>
   
   <author>
@@ -17,11 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Win10终端配置Windows Terminal + PowerShell7</title>
+    <link href="https://blog.yunzd.life/2021/07/06/win10%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE/"/>
+    <id>https://blog.yunzd.life/2021/07/06/win10%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-07-06T13:33:48.000Z</published>
+    <updated>2021-07-06T14:54:36.957Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在Windows Terminal中配置好看、好用的PowerShell&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="terminal" scheme="https://blog.yunzd.life/tags/terminal/"/>
+    
+  </entry>
+  
+  <entry>
     <title>待做！</title>
     <link href="https://blog.yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/"/>
     <id>https://blog.yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/</id>
     <published>2021-07-02T07:21:02.000Z</published>
-    <updated>2021-07-05T05:28:01.377Z</updated>
+    <updated>2021-07-06T14:54:36.885Z</updated>
     
     
       
@@ -44,7 +61,7 @@
     <link href="https://blog.yunzd.life/2021/07/02/test-mag/"/>
     <id>https://blog.yunzd.life/2021/07/02/test-mag/</id>
     <published>2021-07-02T03:58:20.000Z</published>
-    <updated>2021-07-05T05:28:01.453Z</updated>
+    <updated>2021-07-06T14:54:36.957Z</updated>
     
     
       
@@ -67,7 +84,7 @@
     <link href="https://blog.yunzd.life/2021/06/01/anime-md-test/"/>
     <id>https://blog.yunzd.life/2021/06/01/anime-md-test/</id>
     <published>2021-06-01T12:51:05.000Z</published>
-    <updated>2021-07-05T05:28:01.377Z</updated>
+    <updated>2021-07-06T14:54:36.885Z</updated>
     
     
       
