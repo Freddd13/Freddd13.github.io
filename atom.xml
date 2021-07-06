@@ -6,7 +6,7 @@
   <link href="https://blog.yunzd.life/atom.xml" rel="self"/>
   
   <link href="https://blog.yunzd.life/"/>
-  <updated>2021-07-06T15:00:11.666Z</updated>
+  <updated>2021-07-06T16:20:33.655Z</updated>
   <id>https://blog.yunzd.life/</id>
   
   <author>
@@ -17,14 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo Blog折腾相关</title>
+    <link href="https://blog.yunzd.life/2021/07/06/%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88/"/>
+    <id>https://blog.yunzd.life/2021/07/06/%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88/</id>
+    <published>2021-07-06T15:00:49.000Z</published>
+    <updated>2021-07-06T16:20:33.655Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    
+    <category term="图床" scheme="https://blog.yunzd.life/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="cdn" scheme="https://blog.yunzd.life/tags/cdn/"/>
+    
+    <category term="jsdelivr" scheme="https://blog.yunzd.life/tags/jsdelivr/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Win10终端配置Windows Terminal + PowerShell7</title>
     <link href="https://blog.yunzd.life/2021/07/06/win10%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE/"/>
     <id>https://blog.yunzd.life/2021/07/06/win10%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE/</id>
     <published>2021-07-06T13:33:48.000Z</published>
-    <updated>2021-07-06T15:00:11.666Z</updated>
+    <updated>2021-07-06T16:20:33.655Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在Windows Terminal中配置好看、好用的PowerShell&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;在Windows Terminal中配置好看、好用的PowerShell&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Freddd13/picBed/img/20210706235418.png&quot; alt=&quot;image-20210706235417991&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -38,7 +60,7 @@
     <link href="https://blog.yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/"/>
     <id>https://blog.yunzd.life/2021/07/02/2021%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%B9/</id>
     <published>2021-07-02T07:21:02.000Z</published>
-    <updated>2021-07-06T15:00:11.586Z</updated>
+    <updated>2021-07-06T16:20:33.587Z</updated>
     
     
       
@@ -61,7 +83,7 @@
     <link href="https://blog.yunzd.life/2021/07/02/test-mag/"/>
     <id>https://blog.yunzd.life/2021/07/02/test-mag/</id>
     <published>2021-07-02T03:58:20.000Z</published>
-    <updated>2021-07-06T15:00:11.666Z</updated>
+    <updated>2021-07-06T16:20:33.655Z</updated>
     
     
       
@@ -84,7 +106,7 @@
     <link href="https://blog.yunzd.life/2021/06/01/anime-md-test/"/>
     <id>https://blog.yunzd.life/2021/06/01/anime-md-test/</id>
     <published>2021-06-01T12:51:05.000Z</published>
-    <updated>2021-07-06T15:00:11.586Z</updated>
+    <updated>2021-07-06T16:20:33.587Z</updated>
     
     
       
