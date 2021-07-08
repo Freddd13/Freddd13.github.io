@@ -7,7 +7,7 @@
 <li>C/C++ 第一次学习B站网课（<code>当前进度：540 / 736</code>)</li>
 <li>C++ 侯捷课程</li>
 <li>《C++ primer》基础部分学习与巩固</li>
-<li>ROS官方wiki和例程- </li>
+<li>ROS官方wiki和例程-</li>
 <li>《ROS机器人开发实践》</li>
 <li>Linux bash学习与 Linux提高</li>
 <li>stm32原子课程过基本实验，掌握常用用法与简单C编程 （<code>课程当前进度： 9 / 93</code>）</li>
@@ -18,7 +18,7 @@
 <li>读SLAM综述论文 </li>
 </ul>
 <h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><ul>
-<li>线性代数的本质课程</li>
+<li>线性代数的本质课程（<code>课程当前进度： 6 / 16</code>）</li>
 <li>三门数学简单复习</li>
 </ul>
 <h2 id="外语"><a href="#外语" class="headerlink" title="外语"></a>外语</h2><ul>
@@ -36,11 +36,11 @@
 </ul>
 <h2 id="娱乐"><a href="#娱乐" class="headerlink" title="娱乐"></a>娱乐</h2><ul>
 <li><del><code>hexo施工</code></del></li>
-<li><p>编写水刊！</p>
+<li><p><del><code>编写水刊！</code></del><code>时间有限，不能再开坑了</code></p>
 </li>
 <li><p>钢琴</p>
 <ul>
-<li>旅の途中　Arr.  Filipus Wisnumurti Pranoto）(<code>75/100%</code>)</li>
+<li>旅の途中　(Arr.  Filipus Wisnumurti Pranoto）(<code>85/100%</code>)</li>
 <li>コネクト （Arr. Marasy)  （<code>50/100%</code>）</li>
 <li>17才    (Arr. fireteamtorch)  </li>
 <li>青空のラプンディ  (Arr. ものはっぱ)</li>
@@ -51,6 +51,8 @@
 </ul>
 <blockquote>
 <p>（好多事情有生之年？写完上面这些要做的看看都吓人… 果断取消了2021TODO这字样 随缘吧）</p>
+<p>2021.7.9 UPDATE： 半夜不想睡，想来想去感觉很不安，在做很多事，又想做很多事，时间本就有限，而且会越来越少，感觉还是要做减法。我到底想要什么，喜欢做什么？就算真的都喜欢，也只能留下其中一点了..</p>
+<p>希望一切顺利吧</p>
 </blockquote>
 ]]></content>
       <tags>
@@ -61,7 +63,7 @@
     <title>anime_md_test</title>
     <url>/2021/06/01/anime-md-test/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><span id="more"></span>
-<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#45</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.4</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
+<h2 id="ANIME"><a href="#ANIME" class="headerlink" title="ANIME"></a>ANIME</h2><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css" /><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><div class="bangumi-anime_card"><div class="bangumi-info_section"><div class="bangumi-anime_header"><img src="http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg" class="bangumi-locandina"><h1>莉兹与青鸟</h1><h4>リズと青い鳥</h4><div><span class="bangumi-rankspan">排名 <span class="bangumi-rank">#46</span></span><span class="bangumi-rankspan">话数 <span class="bangumi-rank">1</span></span><span class="bangumi-score">8.5</span><span style="color:#545454">&nbsp;力荐</span></div></div><div class="bangumi-anime_desc"><p class="bangumi-text">铠塚霙，高中3年级，双簧管演奏者。
 伞木希美，高中3年级，长笛演奏者。
 
 初中时，是希美牵起了霙的手，带领她走出了孤独。
@@ -84,7 +86,7 @@
 但是……
 两枚略有嫌隙的齿轮，仍不停地转动，寻找着与彼此相契合的那个瞬间。</p></div></div><div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg); no-repeat fixed;background-size: cover;"></div></div>
 <p>// audio-play<br>
-        <div id="aplayer-kLALUBTb" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-TKXzRgig" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">[00:25.33]海の里には、ほーいほーい  / 海中村子 吼以吼以
 [00:31.15]さざ波寄せては ゆーらゆーら  / 微波涟漪飘荡荡
 [00:37.25]荒立つひかりは 几重にも  / 波光粼粼好几重
@@ -110,7 +112,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-kLALUBTb"),
+            element: document.getElementById("aplayer-TKXzRgig"),
             narrow: false,
             autoplay: true,
             showlrc: 2,
